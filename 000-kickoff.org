@@ -1,0 +1,51 @@
+#+title: Augmented Software Engineering
+#+subtitle: Kickoff
+#+date: <2025-01-01>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+options: timestamp:t date:nil title:t author:t
+#+options: toc:nil num:nil
+#+reveal_theme: beige
+#+reveal_init_options: width:"60%"
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/augmented.png" width="100%"/>
+
+* Thank you!
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Baseline
+- Sonalake
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* Why?
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- To speed up the learning!!!
+  - Shorten the time to get to an understanding how good and right looks like!!!
+- It's coming!!!
+  - AI can make you a better engineer!!!
+  - How much? I don't know!
+    - But more than 0%!
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* What? How?
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Once a month (last Thursday of the month)
+  - At least for 6 month
+  - Here at Baseline
+- CFP
+  - Tools and tooling
+  - Experience(s) and best practices
+    - What works! What does not work!
+- Today is an example
+  - But open to other ideas
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
