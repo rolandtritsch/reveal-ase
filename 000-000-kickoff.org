@@ -6,11 +6,11 @@
 #+options: timestamp:t date:nil title:t author:t
 #+options: toc:nil num:nil
 #+reveal_theme: beige
-#+reveal_init_options: width:"60%"
+#+reveal_init_options: width:"80%"
 
 * Welcome
 
-#+REVEAL_HTML: <img src="./images/augmented.png" width="100%"/>
+#+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
 
 * Thank you!
 
@@ -25,9 +25,10 @@
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - To speed up the learning!!!
-  - Shorten the time to get to an understanding how good and right looks like!!!
-- It's coming!!!
-  - AI can make you a better engineer!!!
+  - (Too much) Silo-ed learning!
+- (I think) It's coming!!!
+  - Balance the fear and the hype!
+  - AI can make you a better engineer!
   - How much? I don't know!
     - But more than 0%!
 #+REVEAL_HTML: </div>
@@ -37,11 +38,12 @@
 * What? How?
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- Once a month (last Thursday of the month)
+- Once a month (3rd Thursday of the month)
   - At least for 6 month
   - Here at Baseline
 - CFP
   - Tools and tooling
+    - Coding and "Other" (e.g. heyGen)
   - Experience(s) and best practices
     - What works! What does not work!
 - Today is an example
@@ -49,3 +51,32 @@
 #+REVEAL_HTML: </div>
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* Logistics
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Fire exit
+- Restroom
+- Slides will be available for download (in PDF)
+  - Links to follow
+- Meetup Group Selfie (Check! Done!)
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* Agenda/Today
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- 18:00 - Doors open (Pizza, Beers, People) - All
+- 18:30 - Kickoff - Roland
+- 18:45 - Tools and tooling - Roland
+- 19:15 - Using AI in anger - Ciaran
+- 19:45 - Wrap-up - Roland
+- 20:00 - More mingling - All
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* Questions (so far)?
+
+#+REVEAL_HTML: <img src="./images/questions.webp" width="60%"/>

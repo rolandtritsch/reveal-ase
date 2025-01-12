@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Augmented Software Engineering</title>
+<meta name="author" content="Roland Tritsch"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/beige.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Augmented Software Engineering</h1><p class="subtitle">Tools and Tooling - Windsurf</p>
+<h2 class="author">Roland Tritsch</h2><p class="date">Created: 2025-01-12 Sun 07:48</p>
+</section>
+
+<section>
+<section id="slide-org643ac36">
+<h2 id="org643ac36">A Suggestion &#x2026;</h2>
+<p>
+&#x2026; to put some structure into the chaos :) &#x2026;
+</p>
+
+</section>
+<section id="slide-orge172830">
+<h3 id="orge172830">The Stack</h3>
+<div class="column" style="float: left; width: 60%">
+<ul>
+<li>The Language (e.g. Scala)</li>
+<li>The IDE (e.g. VsCode)</li>
+<li>The Integration (e.g. GitHub Copilot)</li>
+<li>The LLM (e.g. chatGPT-4o)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
+
+</section>
+<section id="slide-org22ddd59">
+<h3 id="org22ddd59">The Stack (today)</h3>
+<div class="column" style="float: left; width: 60%">
+<ul>
+<li>The Language (Scala)(not important)</li>
+<li>The IDE (Windsurf)</li>
+<li>The Integration (Codeium)</li>
+<li>The LLM (Claude-3.5-Sonet)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
+
+</section>
+<section id="slide-org0c256dd">
+<h3 id="org0c256dd">The Stack</h3>
+<p>
+What makes this stack better than other stacks?
+</p>
+
+<p>
+Comparing complete stacks or pieces of the stack!
+</p>
+
+</section>
+<section id="slide-org256a4d4">
+<h3 id="org256a4d4">Main Capabilities</h3>
+<div class="column" style="float: left; width: 60%">
+<ul>
+<li>A chat for research
+<ul>
+<li>Stack Overflow on steroids</li>
+
+</ul></li>
+<li>Generate code
+<ul>
+<li>Implementations and test</li>
+<li>In the chat, inline and code completions</li>
+
+</ul></li>
+<li>Fix code
+<ul>
+<li>Compile-time errors and run-time errors</li>
+
+</ul></li>
+<li>Explain code</li>
+<li>(And now) Refactor code</li>
+
+</ul>
+</div>
+
+<div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
+
+</section>
+<section id="slide-org546b346">
+<h3 id="org546b346">Workflows/Best Practices</h3>
+<ul>
+<li>How do you use AI?</li>
+<li>What works? What does not work (yet)?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org2ad36f1">
+<h2 id="org2ad36f1">Windsurf</h2>
+<div class="column" style="float: left; width: 60%">
+<ul>
+<li>Windsurf/Codeium 
+<ul>
+<li>Tight integration (like cursor.ai)</li>
+
+</ul></li>
+<li>Had Cascade (before GHCP had Edits)</li>
+
+</ul>
+</div>
+
+<div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+</section>
+</section>
+<section>
+<section id="slide-org70f0405">
+<h2 id="org70f0405">Demo - Disclaimer</h2>
+<p>
+AI demos are hard. They are non-deterministic. They are different &#x2026; every time. All the time. Bear with me &#x2026;
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgba1cdaf">
+<h2 id="orgba1cdaf">Demo - Tool</h2>
+<ul>
+<li>Cascade (Write mode/Chat mode)</li>
+<li>Inline completion/ask</li>
+<li>Context management
+<ul>
+<li>(Open) Files (e.g. Problem/Context file)</li>
+<li>Lines</li>
+
+</ul></li>
+<li>Use-case: Keyboard-Macros</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org8ef2797">
+<h2 id="org8ef2797">Demo - Refactoring</h2>
+<ul>
+<li>Making changes to (a lot of) files</li>
+<li>Describe an outcome
+<ul>
+<li>Be prepared to help with the how</li>
+<li>Be prepared to get stuck</li>
+
+</ul></li>
+<li>Say yes &#x2026; (a lot)</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orga1747b6">
+<h2 id="orga1747b6">Questions?</h2>
+<img src="./images/questions.webp" width="60%"/>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+width:"80%",
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+
+</script>
+</body>
+</html>
