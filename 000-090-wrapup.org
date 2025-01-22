@@ -1,29 +1,26 @@
-#+title: Augmented Software Engineering
-#+subtitle: Wrap-up
-#+date: <2025-01-20>
+#+title: Wrap-up
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-01-01>
 #+author: Roland Tritsch
 #+email: roland@tritsch.email
-#+options: timestamp:t date:nil title:t author:t
-#+options: toc:nil num:nil
+#+options: timestamp:t title:t author:t
+#+options: toc:nil num:nil date:nil 
 #+reveal_theme: beige
 #+reveal_init_options: width:"80%"
 
-* Thoughts/Feedback
+* Thoughts/Feedback?
 
 - Now or later?!?!
 - More of the same?!?!
 
-* Ask/Next
+* Ask/Next!
 
 - CFP!!!
 - Sponsors!!!
-- Thu., Feb., 20th, 18:00 
+- Thu., Feb., 20th, 18:00!!!
 
 * Thank you!
 
-#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- Baseline
-- Sonalake
-#+REVEAL_HTML: </div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+#+REVEAL_HTML: <img src="./images/baseline.png" width="40%"/>
+#+REVEAL_HTML: <br>
+#+REVEAL_HTML: <img src="./images/sonalake.png" width="40%"/>

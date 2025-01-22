@@ -1,16 +1,16 @@
-#+title: Augmented Software Engineering
-#+subtitle: Tools and Tooling - Windsurf
-#+date: <2025-01-20>
+#+title: Tools - Windsurf
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-01-01>
 #+author: Roland Tritsch
 #+email: roland@tritsch.email
-#+options: timestamp:t date:nil title:t author:t
-#+options: toc:nil num:nil
+#+options: timestamp:t title:t author:t
+#+options: toc:nil num:nil date:nil
 #+reveal_theme: beige
 #+reveal_init_options: width:"80%"
 
 * A Suggestion ...
 
-... to put some structure into the chaos :) ...
+... to put some structure into the discussion :) ...
 
 ** The Stack
 
@@ -19,17 +19,6 @@
 - The IDE (e.g. VsCode)
 - The Integration (e.g. GitHub Copilot)
 - The LLM (e.g. chatGPT-4o)
-#+REVEAL_HTML: </div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
-
-** The Stack (today)
-
-#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- The Language (Scala)(not important)
-- The IDE (Windsurf)
-- The Integration (Codeium)
-- The LLM (Claude-3.5-Sonet) 
 #+REVEAL_HTML: </div>
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
@@ -56,24 +45,35 @@ Comparing complete stacks or pieces of the stack!
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
 
-** Workflows/Best Practices
+** The Stack (today)
 
-- How do you use AI?
-- What works? What does not work (yet)?
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- The Language (Scala)(not important)
+- The IDE (Windsurf)
+- The Integration (Codeium)
+- The LLM (Claude-3.5-Sonet) 
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/stack.webp" width="80%"/></div>
+
 
 * Windsurf
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - Windsurf/Codeium 
-  - Tight integration (like cursor.ai)
+  - Tight integration (like cursor.com)
 - Had Cascade (before GHCP had Edits)
 #+REVEAL_HTML: </div>
 
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/windsurf.png" width="80%"/></div>
 
 * Demo - Disclaimer
 
-AI demos are hard. They are non-deterministic. They are different ... every time. All the time. Bear with me ...
+AI demos are hard. They are non-deterministic.
+
+They are different ... every time. All the time.
+
+Bear with me ...
 
 * Demo - Tool
 
@@ -82,15 +82,24 @@ AI demos are hard. They are non-deterministic. They are different ... every time
 - Context management
   - (Open) Files (e.g. Problem/Context file)
   - Lines
+- Use-case: Search-Replace/Rename-Symbol (one file)
 - Use-case: Keyboard-Macros
+
+* Demo - Tool
+
+#+REVEAL_HTML: <img src="./images/cascade.png" width="60%"/>
 
 * Demo - Refactoring
 
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - Making changes to (a lot of) files
 - Describe an outcome
   - Be prepared to help with the how
   - Be prepared to get stuck
 - Say yes ... (a lot)
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/cascade.png" width="80%"/></div>
 
 * Questions?
 
