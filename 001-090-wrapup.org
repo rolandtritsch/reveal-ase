@@ -1,0 +1,27 @@
+#+title: Wrap-up
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-02-20>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+options: date:t title:t author:t
+#+options: toc:nil num:nil timestamp:nil
+#+reveal_date_timestamp_format: "%d-%b-%Y"
+#+reveal_theme: beige
+#+reveal_init_options: width: "80%"
+
+* Thoughts/Feedback?
+
+- Now or later?!?!
+- More of the same?!?!
+
+* Ask/Next!
+
+- CFP!!!
+- Sponsors!!!
+- Thu., Mar., 20th, 18:00!!!
+
+* Thank you!
+
+#+reveal_html: <img src="./images/baseline.png" width="40%"/>
+#+reveal_html: <br>
+#+reveal_html: <img src="./images/fiserv.jpeg" width="40%"/>

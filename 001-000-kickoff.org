@@ -1,0 +1,79 @@
+#+title: Kickoff
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-02-20>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+options: timestamp:t title:t author:nil email:t
+#+options: date:nil toc:nil num:nil 
+#+reveal_theme: beige
+#+reveal_init_options: width:"80%"
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/robot.webp" width="30%"/>
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
+
+* Thank you!
+
+#+REVEAL_HTML: <img src="./images/baseline.png" width="40%"/>
+#+REVEAL_HTML: <br>
+#+REVEAL_HTML: <img src="./images/fiserv.jpeg" width="40%"/>
+
+* Why?
+
+- Balance the fear and the hype!
+  - AI will replace all software-engineers: **Probably not!**
+- AI has the potential to make you a better (more productive, more efficient, more effective) software-engineer: **Very likely!**
+  - By how much? I don't know! But more than 0%!
+- And yes: We can learn this on our own, at home, watching YouTube, ... 
+  - But it will be _faster_ (more _fun_ :)), if we learn together/from each other
+- Let's have some [[https://youtu.be/pFHwKVeVei4?si=LsiznwuAaGiSxiOy&t=210][fun]], shall we? 
+
+* What? How?
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Once a month (3rd Thursday of the month)
+  - At least for 6 month
+  - Here at Baseline
+- Today is an example
+  - But open to other ideas
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* What? How?
+
+- Call-for-Papers/Presentations (CFP)
+  - Tools and tooling
+    - Coding and "Other" (e.g. [[https://youtu.be/pFHwKVeVei4?si=LsiznwuAaGiSxiOy&t=210][heyGen]], [[https://promptmetheus.com/][Promptmetheus]])
+  - Experience(s) and best practices/better workflows
+    - What works! What does not work!
+  - Tips and Tricks
+    - Cool/clever prompts and good contexts
+
+* Logistics
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Fire exit, restroom, ...
+- Slides will be available for download
+- Meetup Group Selfie
+- Survey (Using AI? How? How much?)
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+
+* Agenda/Today
+
+- 18:00 - Doors open (Pizza, Beers, People) - All
+- 18:30 - Kickoff - Roland
+- 18:30 - A window with 1M tokens! - Karl Matthias
+- 19:15 - When does large, become too large - Eoin Barry
+- 20:00 - Wrap-up - Roland
+- 20:15 - More mingling - All
+
+* Questions (so far)?
+
+#+REVEAL_HTML: <img src="./images/questions.webp" width="60%"/>
