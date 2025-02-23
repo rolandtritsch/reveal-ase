@@ -3,11 +3,9 @@
 #+date: <2025-02-20>
 #+author: Roland Tritsch
 #+email: roland@tritsch.email
-#+options: date:t title:t author:t
-#+options: toc:nil num:nil timestamp:nil
-#+reveal_date_timestamp_format: "%d-%b-%Y"
 #+reveal_theme: beige
 #+reveal_init_options: width: "80%"
+#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>20-Feb-2025</h3><h4 class=email>%e</h4>
 
 * Thoughts/Feedback?
 
