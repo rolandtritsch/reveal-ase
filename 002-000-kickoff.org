@@ -17,11 +17,28 @@
 
 #+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
 
+* Roland
+
+#+REVEAL_HTML: <img src="./images/roland.png" width="80%"/>
+
+* Roland
+
+- (Fractional) CTO, VP Engineering, ...
+- Specialized in early (remote-first) start-ups
+- The Extreme Digital Nomad, The Augmented Software Engineer
+- Ex-IONA, Ex-Gilt, Ex-Nitro, Ex-Community, ... 
+- SaaS, Distributed-Systems, Event-based Systems, ...
+- Functional Programing (Haskell, Scala, Elixir/Erlang, ...)
+
+* Roland
+
+#+REVEAL_HTML: <img src="./images/van.png" width="60%"/>
+
 * Thank you!
 
 #+REVEAL_HTML: <img src="./images/baseline.png" width="40%"/>
 #+REVEAL_HTML: <br>
-#+REVEAL_HTML: <img src="./images/fiserv.jpeg" width="40%"/>
+#+REVEAL_HTML: <img src="./images/dreamdev.jpeg" width="40%"/>
 
 * Why?
 
@@ -35,7 +52,9 @@
 
 * Why?
 
+#+REVEAL_HTML: <div class="quote">
 We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run. - Amara's law
+#+REVEAL_HTML: </div>
 
 * What? How?
 
@@ -73,9 +92,10 @@ We tend to overestimate the effect of a technology in the short run and underest
 * Agenda/Today
 
 - 18:00 - Doors open (Pizza, Beers, People) - All
-- 18:30 - Kickoff - Roland
-- 18:45 - A window with 1M tokens! - Karl Matthias
-- 19:30 - When does large, become too large - Eoin Barry
+- 18:30 - Welcome/Kickoff - Eamon/Roland
+- 18:45 - Warp: Using DeepSeek for the command-line - Roland
+- 19:15 - Ollama: Running models locally (in VsCode)- Roland
+- 19:45 - Windsurf: Extending it with MCP - Roland
 - 20:15 - Wrap-up - Roland
 - 20:30 - More mingling - All
 

@@ -1,0 +1,24 @@
+* Pictures
+
+* Audio
+
+- Bluetooth
+
+* Video
+
+- Camera-1 (Theater): Full room from the right
+- Camera-2 (Sony): Just Roland from the left
+- Camera-3 (Laptop): Just Roland 
+
+* Screen
+
+- Screen recording
+- Larger font
+- Solarized Light/Dark
+- Prompt input position classic mode (Warp)
+
+* Projector
+
+- Very long HDMI cable
+- swaymsg -d get_outputs
+- wl-mirror <output>

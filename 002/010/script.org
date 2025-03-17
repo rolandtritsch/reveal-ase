@@ -1,0 +1,21 @@
+* Using DeepSeek
+
+* Natural Language Terminal
+
+- Auto-Completion
+- Prompt-Suggestion
+- Next-Command
+
+- Find 10 largest files in ~/Development
+  - Ignore .git directories
+
+* Trouble-Shooting
+
+- Failed build (fibonacci.sh)
+
+* Tasks and Outcomes
+
+- Make a slide show
+- Create a typescript project (fib)
+
+* Using claude-3.7-sonnet

@@ -1,0 +1,47 @@
+#+title: DeepSeek on the command-line with Warp
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-03-20>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+reveal_theme: beige
+#+reveal_init_options: width: "80%"
+#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>20-Mar-2025</h3><h4 class=email>%e</h4>
+#+options: title:nil author:nil email:nil date:nil timestamp:nil
+#+options: toc:nil num:nil 
+
+* Stage-Setting
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Who knows Warp? Is using it?
+- (One of these) AI-assisted terminals
+- Rust, fast, ...
+- I am using it, because there was nothing else
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/warp.png" width="80%"/></div>
+
+* Demo
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- DeepSeek, chatGPT, claude, ...
+- "Natural language" terminal (find files, ...)
+- Trouble-shooting, error messages, ...
+- "Tasks" and "Outcomes" (edit video files, ...)
+- Software Engineering ...
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/warp.png" width="80%"/></div>
+
+* Take-a-ways
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Lot's of models available
+- Good context management
+- Not "only" as a "natural language" terminal
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/warp.png" width="80%"/></div>
+
+* Questions?
+
+#+REVEAL_HTML: <img src="./images/questions.webp" width="60%"/>
