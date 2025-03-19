@@ -1,0 +1,24 @@
+* Using MCP-Servers to pimp my Windsurf
+
+** Roland MCP-Server
+
+- Who is Roland?
+  - I don't know
+- Review the server
+  - State, Resources, ...
+- Install/Configure it ...
+- Test it ...
+
+** More/Other MCP-Servers
+
+- [[https://mcp.so/][mcp.so]]
+- [[https://github.com/modelcontextprotocol/servers][MCP-Servers]]
+- Awesome [[https://github.com/modelcontextprotocol/servers?tab=readme-ov-file#-resources][Resources]]
+
+** Github
+
+- The [[https://github.com/modelcontextprotocol/servers/tree/main/src/github][Server]]
+- Install/Configure it ...
+- Break the code (transportx)
+  - Ask Cascade to explain the problem
+  - Ask Cascade to create an issue to fix it
