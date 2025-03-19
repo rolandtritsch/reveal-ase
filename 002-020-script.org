@@ -1,0 +1,38 @@
+* Ollama
+
+Running models locally.
+
+** Install/Manage
+
+- == https://ollama.com ==
+- == curl -fsSL https://ollama.com/install.sh | sh  ==
+- ollama push, pull, run, ...
+- Tools, vision (pictures), embeddings, ...
+- 1.5b, 3b, 7b, ..., 32b, ...
+- base/chat, instruct/code, ...
+- Quantization, Q4_K_M, ... (to make the model smaller (memory))
+
+** Run
+
+- (Disclaimer) My HW (is not very good/powerful)
+   - lspci | grep -i vga
+   - (on CPU) Intel Corporation Alder Lake-P Integrated Graphics Controller
+- deepseek, llama, qwen, mistral, ...
+- Test(s) ...
+   - Why is the sky blue? (qwen-coder:3b, llama3.2, llama3.1, ..., deepseek-r1:1.5b)
+   - Let's break a cipher. If "BCCB" means "ABBA", what does "Ifmmp Xpsme" mean? (qwen-coder:1.5b/3b/7b, deepseek-r1:1.5b)
+     - Let's break a cipher. If "Rovvy Gybvn" means "Hello World", what does "Dro Keqwoxdon Cypdgkbo Oxqsxoob" mean?
+   - Can you explain why "SEND" + "MORE" = "MONEY"?
+   - Create a python implementation of the fibonacci sequence
+- ollama help (ps, ...)
+- Configuration, ... (FLASH_ATTENTION, KV_CACHE_TYPE)
+   - /set parameter list
+
+** VsCode
+
+- ollama-autocoder (one of many)
+  - Continue, Cline, Cody, ...
+- Show settings (url, model, ...)
+  - ollama in the cloud
+- Generate fibonacci sequence in python
+  - Good (enough) for offline work? Not sure! Needs more work!

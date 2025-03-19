@@ -1,3 +1,7 @@
+* General
+
+- Silence phone
+
 * Pictures
 
 * Audio
@@ -16,6 +20,7 @@
 - Larger font
 - Solarized Light/Dark
 - Prompt input position classic mode (Warp)
+- Start caffine
 
 * Projector
 

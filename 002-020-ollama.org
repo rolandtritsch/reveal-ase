@@ -1,0 +1,49 @@
+#+title: Running models locally with ollama
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-03-20>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+reveal_theme: beige
+#+reveal_init_options: width: "80%"
+#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>20-Mar-2025</h3><h4 class=email>%e</h4>
+#+options: title:nil author:nil email:nil date:nil timestamp:nil
+#+options: toc:nil num:nil 
+
+* Stage-Setting
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Who knows Ollama? Is using it?
+- (One of these) Run/Manage models locally solutions
+  - LM-Studio, vllm, ...
+- I am using it, because there are (good enough) IDE integrations
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/ollama.png" width="50%"/></div>
+
+* Demo
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- Install, ..., push/pull, list, run, ...
+- Base, instruct, code, ..., 3b, 7b, 32b, ..., Q4-K-M, ...
+- Configuration, ..., 
+- Test(s), ...
+- VsCode, ...
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/ollama.png" width="50%"/></div>
+
+* Take-a-ways
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- ollama is (just) one option
+- Use code(r)/instruct models
+- Use (up to) 7b (with Q4-K-M)
+- Configure it right!!! (FLASH-ATTENTION, KV-CACHE-TYPE)
+- (On my laptop) (Very) Limited stop-gap measure
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/ollama.png" width="50%"/></div>
+
+* Questions?
+
+#+REVEAL_HTML: <img src="./images/questions.webp" width="60%"/>
