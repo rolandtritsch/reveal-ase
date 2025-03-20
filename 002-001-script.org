@@ -1,6 +1,8 @@
 * General
 
 - Silence phone
+- Start caffine
+- Shutdown all other apps (slack, email, gtd, ...)
 
 * Pictures
 
@@ -20,7 +22,6 @@
 - Larger font
 - Solarized Light/Dark
 - Prompt input position classic mode (Warp)
-- Start caffine
 
 * Projector
 

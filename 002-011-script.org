@@ -1,4 +1,4 @@
-* Using DeepSeek
+* Using DeepSeek with Warp
 
 * Natural Language Terminal
 
@@ -16,6 +16,6 @@
 * Tasks and Outcomes
 
 - Make a slide show
-- Create a typescript project (fib)
+- Create a typescript project (fibonacci)
 
 * Using claude-3.7-sonnet

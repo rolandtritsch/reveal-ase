@@ -30,9 +30,9 @@
 - SaaS, Distributed-Systems, Event-based Systems, ...
 - Functional Programing (Haskell, Scala, Elixir/Erlang, ...)
 
-* Roland
+* The Extreme Digital Nomad
 
-#+REVEAL_HTML: <img src="./images/van.png" width="60%"/>
+#+REVEAL_HTML: <img src="./images/van.png" width="50%"/>
 
 * Thank you!
 
@@ -98,6 +98,38 @@ We tend to overestimate the effect of a technology in the short run and underest
 - 19:45 - Windsurf: Extending it with MCP - Roland
 - 20:15 - Wrap-up - Roland
 - 20:30 - More mingling - All
+
+* Fibonacci
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- The fibonacci sequence is ... (the math/formula, golden circle, ...)
+  - **fib n = fib (n - 1) + fib (n - 2)**
+  - Recursive, tail-recursive, iterative, lazy-list, ...
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/fibonacci.jpg" width="80%"/></div>
+
+* Fibonacci
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- The fibonacci sequence is ... (the math/formula, golden circle, ...)
+  - **fib n = fib (n - 1) + fib (n - 2)**
+  - Recursive, tail-recursive, iterative, lazy-list, ...
+- The fibonacci sequence can ... explain (almost) everything!!!
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/sunflower.jpg" width="80%"/></div>
+
+* Fibonacci
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
+- The fibonacci sequence is ... (the math/formula, golden circle, ...)
+  - **fib n = fib (n - 1) + fib (n - 2)**
+  - Recursive, tail-recursive, iterative, lazy-list, ...
+- The fibonacci sequence can ... explain (almost) everything!!!
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/trump.jpg" width="80%"/></div>
 
 * Questions (so far)?
 
