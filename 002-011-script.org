@@ -1,13 +1,19 @@
 * Using DeepSeek with Warp
 
-* Natural Language Terminal
+* Explain Warp
 
-- Auto-Completion
-- Prompt-Suggestion
-- Next-Command
+- Rust, 2 years old, pivoted to be(come) an AI-terminal, ...
+- Models, ..., deepseek-r1 (reasoning) vs. deepseek-v3 (chat/query)
+- Pair/Chat vs. Dispatch (Beta) (allow/deny-list)
+- Lot's of (other) features (warp-drive/aliases) that we are not going to talk about
+- Auto-Completion, Prompt-Suggestion, Next-Command
+
+* Natural Language Terminal (deepseek-v3)
 
 - Find 10 largest files in ~/Development
   - Ignore .git directories
+- Create a bash implementation to calcluate the n-th element of the fibonacci sequence, where n is the first and only parameter passed to the shell script
+  - deepseek-v3 vs. claude-3.7
 
 * Trouble-Shooting
 
@@ -15,7 +21,5 @@
 
 * Tasks and Outcomes
 
-- Make a slide show
-- Create a typescript project (fibonacci)
-
-* Using claude-3.7-sonnet
+- Pick 10 random pictures from "~/Dropbox/Camera Uploads" and run them as a slide show
+- Take all the video and image artifacts in <folder> and create a video from them  
