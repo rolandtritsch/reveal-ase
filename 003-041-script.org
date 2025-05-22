@@ -12,7 +12,7 @@
 
 - Find 10 largest files in ~/Development
   - Ignore .git directories
-- Create a bash implementation to calcluate the n-th element of the fibonacci sequence, where n is the first and only parameter passed to the shell script
+- Create a bash implementation to calcluate the n-th element of the fibonacci sequence
   - deepseek-v3 vs. claude-3.7
 
 * Trouble-Shooting
