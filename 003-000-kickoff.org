@@ -96,7 +96,7 @@ We tend to overestimate the effect of a technology in the short run and underest
 - 18:45 - Implementing an MCP Server (in 15 mins) - Kavith
 - 19:00 - Secure coding and secure design with AI - David
 - 19:15 - Break/Buffer
-- 19:30 - Using an agentic AI Platform for refactoring code (code elimination) - Iain
+- 19:30 - Using an agentic AI Platform for code elimination - Iain
 - 19:45 - IDE-less software-engineering with Warp - Roland
 - 20:00 - Wrap-up - Roland
 - 20:15 - More beers, more mingling
