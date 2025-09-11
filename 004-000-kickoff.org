@@ -60,10 +60,11 @@
 - Next one in November. Vibe-Coding (Take II)
 - Call-for-Sponsors (!!!)
 - Call-for-Papers/Presentations (!!!)
-  - What is (not) working? How? Why?
+  - What is working? How? Why? Not working?
   - Tools, Products, Platforms, Frameworks, ...
   - Experiences and Best Practices
   - Tips and Tricks
+- Call-for-Coorganizer(s) 
 
 * Logistics
 
