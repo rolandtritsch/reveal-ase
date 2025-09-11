@@ -9,11 +9,14 @@
 #+options: title:nil author:nil email:nil date:nil timestamp:nil
 #+options: toc:nil num:nil
 
-* What's new?
+* What's new? What's happening?
 
-- ???
-- ???
-- Releasing [[https://github.com/rolandtritsch/whisper-wayland][whisper_wayland]]
+- chatGPT 5 (flop)
+- sycophancy (flip)
+- windsurf (flop)
+- the death of the IDE (flip)
+- the death of the keyboard (flop)
+- releasing [[https://github.com/rolandtritsch/whisper-wayland][whisper-wayland]] (flip)
 
 * Thoughts/Feedback?
 
@@ -25,7 +28,7 @@
 
 - CFP!!!
 - Sponsors!!!
-- Thu., Nov. ??th, 18:00!!!
+- Thu., Nov. 20th, 18:00!!!
 
 * Thank you!
 

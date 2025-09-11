@@ -17,6 +17,10 @@
 
 #+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
 
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/members.png" width="50%"/>
+
 * Roland
 
 #+REVEAL_HTML: <img src="./images/roland.png" width="80%"/>
@@ -52,25 +56,25 @@
 
 * What? How?
 
+- New cadence: Every 2 month
 - Next one in November. Vibe-Coding (Take II)
-- Call-for-Papers/Presentations (CFP)
-  - Tools and tooling
-    - Coding and "Other" (e.g. [[https://youtu.be/pFHwKVeVei4?si=LsiznwuAaGiSxiOy&t=210][heyGen]], [[https://promptmetheus.com/][Promptmetheus]])
-  - Experience(s) and best practices/better workflows
-    - What works! What does not work!
+- Call-for-Sponsors (!!!)
+- Call-for-Papers/Presentations (!!!)
+  - What is (not) working? How? Why?
+  - Tools, Products, Platforms, Frameworks, ...
+  - Experiences and Best Practices
   - Tips and Tricks
-    - Cool/clever prompts and good contexts
 
 * Logistics
 
-#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- Fire exit, restroom, ...
-- Slides will be available for download
-- Meetup Group Selfie
+#+REVEAL_HTML: <div class="column" style="float: left; width: 50%">
+- Fire exit, restroom, no phones, no food (but drinks :)) ...
+- Slides will be available for download (and (maybe) a video)
+- **!!! Engagement !!!**
 - Survey (Using AI? How? How much?)
 #+REVEAL_HTML: </div>
 
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/robot.webp" width="80%"/></div>
+#+REVEAL_HTML: <div class="column" style="float: right; width: 50%"><img src="./images/robot.webp" width="60%"/></div>
 
 * Agenda/Today
 
