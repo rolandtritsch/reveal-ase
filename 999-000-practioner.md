@@ -1,0 +1,93 @@
+#+title: Roland's Setup
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2025-09-11>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+reveal_theme: beige
+#+reveal_init_options: width: "80%"
+#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>11-Sep-2025</h3><h4 class=email>%e</h4>
+#+options: title:nil author:nil email:nil date:nil timestamp:nil
+#+options: toc:nil num:nil 
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/robot.webp" width="30%"/>
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
+
+* Roland
+
+#+REVEAL_HTML: <img src="./images/roland.png" width="80%"/>
+
+* Roland
+
+- (Fractional) CTO, VP Engineering, ...
+- Specialized in early (remote-first) start-ups
+- The Extreme Digital Nomad, The Augmented Software Engineer
+- Ex-IONA, Ex-Gilt, Ex-Nitro, Ex-Community, ... 
+- SaaS, Distributed-Systems, Event-based Systems, ...
+- Functional Programing (Haskell, Scala, Elixir/Erlang, ...)
+
+* The Extreme Digital Nomad
+
+#+REVEAL_HTML: <img src="./images/van.png" width="50%"/>
+
+* Today
+
+- Practioners-Day
+- How do I use AI to be a better (Augmented) Software-Engineer
+- Tools, Workflow, Best Practises, Tips & Tricks, ...
+
+* Tools
+
+- VsCode with GHCP and claude-code (in a devcontainer)
+  - claude-code also using a gemini mcp server
+- Warp
+
+* Using
+
+- ESC
+- Memory
+- Commands
+
+* Not using
+
+- Sub-Agents/Sub-Tasks
+- Worktrees
+- Output-Styles
+
+- Next one in November. Vibe-Coding (Take II)
+- Call-for-Sponsors (!!!)
+- Call-for-Papers/Presentations (!!!)
+  - What is working? How? Why? Not working?
+  - Tools, Products, Platforms, Frameworks, ...
+  - Experiences and Best Practices
+  - Tips and Tricks
+- Call-for-Coorganizer(s) 
+
+* Logistics
+
+#+REVEAL_HTML: <div class="column" style="float: left; width: 50%">
+- Fire exit, restroom, no phones, no food (but drinks :)) ...
+- Slides will be available for download (and (maybe) a video)
+- **!!! Engagement !!!**
+- Survey (Using AI? How? How much?)
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float: right; width: 50%"><img src="./images/robot.webp" width="60%"/></div>
+
+* Agenda/Today
+
+- 18:00 - Opening doors (Pizza & Beers) - All
+- 18:30 - Kickoff - Eamon, Roland
+- 18:45 - ​Vibing beyond code: Project Management for the lazy - ​R​ene
+- 19:15 - ​Context Management Is All You Need - ​J​ose
+- 19:45 - ​Autonomous coding for out of distribution long running tasks - ​Brian
+- 20:15 - Wrap-up - Roland
+- 20:20 - More beers, more mingling - All
+
+* Questions (so far)?
+
+#+REVEAL_HTML: <img src="./images/questions.webp" width="60%"/>
