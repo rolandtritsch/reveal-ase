@@ -42,7 +42,7 @@
 
 #+REVEAL_HTML: <img src="./images/baseline.png" width="40%"/>
 #+REVEAL_HTML: <br>
-#+REVEAL_HTML: <img src="./images/jentic-logo.png" width="40%"/>
+#+REVEAL_HTML: <img src="./images/jentic-logo2.png" width="40%"/>
 
 * Why?
 
@@ -64,7 +64,7 @@
   - Tools, Products, Platforms, Frameworks, ...
   - Experiences and Best Practices
   - Tips and Tricks
-- Call-for-Coorganizer(s) 
+- Call-for-Coorganizer(s)
 
 * Logistics
 
@@ -81,6 +81,7 @@
 
 - 18:00 - Opening doors (Pizza & Beers) - All
 - 18:30 - Kickoff - Eamon, Roland
+- 18:35 - A word from the sponsor: Agentic-Coding with Jentic - Liam
 - 18:45 - ​Practical Agentic-Coding: A journey of 12000 steps - Karl
 - 19:30 - From Friction to Flow: Harnessing AI-Assisted Development - Dáire
 - 20:15 - Wrap-up - Roland
