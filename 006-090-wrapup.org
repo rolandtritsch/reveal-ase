@@ -1,0 +1,80 @@
+#+title: Wrap-up
+#+subtitle: Augmented Software Engineering Meetup
+#+date: <2026-01-28>
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+reveal_theme: beige
+#+reveal_init_options: width: "80%"
+#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>28-Jan-2026</h3><h4 class=email>%e</h4>
+#+options: title:nil author:nil email:nil date:nil timestamp:nil
+#+options: toc:nil num:nil
+
+* What's new? What's happening?
+
+[[https://www.stateof.ai/][StateOf.Ai Edition]]
+
+** What's new? What's happening? (1/8)
+
+My take: GPT, Claude, Gemini, Grok, ..., DeepSeek, Qwen, ...
+
+#+reveal_html: <img src="./images/stateof-ai-0.png" width="60%"/>
+
+** What's new? What's happening? (2/8)
+
+My take: MCP on the way up ... or out (agents, skills, ...)
+
+#+reveal_html: <img src="./images/stateof-ai-1.png" width="60%"/>
+
+** What's new? What's happening? (3/8)
+
+My take: Langchain remains popular, but is now one of many 
+
+#+reveal_html: <img src="./images/stateof-ai-2.png" width="60%"/>
+
+** What's new? What's happening? (4/8)
+
+My take: Sonnet remains popular, but is now one of many 
+
+#+reveal_html: <img src="./images/stateof-ai-3.png" width="60%"/>
+
+** What's new? What's happening? (5/8)
+
+My take: Agentic-Coding is a thing (business, usage, ...)
+
+#+reveal_html: <img src="./images/stateof-ai-4.png" width="60%"/>
+
+** What's new? What's happening? (6/8)
+
+My take: Coding, Media-Generation (Sora-Avatars), ...
+
+#+reveal_html: <img src="./images/stateof-ai-5.png" width="60%"/>
+
+** What's new? What's happening? (7/8)
+
+My take: Claude-Code, Cursor, VSC/GHCP, ..., Windsurf, ...
+
+#+reveal_html: <img src="./images/stateof-ai-6.png" width="60%"/>
+
+** What's new? What's happening? (8/8)
+
+My take: 5 will become true. Which 5?
+
+#+reveal_html: <img src="./images/stateof-ai-7.png" width="60%"/>
+
+* Thoughts/Feedback?
+
+- Now or later?!?!
+- More of the same?!?!
+- Another one like this?!?!
+
+* Ask/Next!
+
+- CFP!!!
+- Sponsors!!!
+- Co-Organizers!!!
+- Thu., Mar., 22th, 18:00!!!
+- Tables!!! Clean-Up!!!
+
+* Thank you!
+
+#+REVEAL_HTML: <img src="./images/servicenow.png" width="40%"/>
