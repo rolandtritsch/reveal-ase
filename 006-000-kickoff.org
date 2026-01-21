@@ -19,9 +19,7 @@
 
 * Welcome
 
-#+REVEAL_HTML: <img src="./images/growth-2025-II.png" width="50%"/>
-
-https://chatgpt.com/share/696a00de-b55c-8013-a81f-dca9b11ddeb3
+#+REVEAL_HTML: <figure><img src="./images/growth-2025-II.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://chatgpt.com/share/696a00de-b55c-8013-a81f-dca9b11ddeb3">Source: https://chatgpt.com/share/696a00de-b55c-8013-a81f-dca9b11ddeb3</a></figcaption></figure>
 
 * Roland
 
@@ -42,9 +40,7 @@ https://chatgpt.com/share/696a00de-b55c-8013-a81f-dca9b11ddeb3
 
 * Why?
 
-#+REVEAL_HTML: <img src="./images/agents-2026-II.png" width="50%"/>
-
-https://sourcegraph.com/blog/revenge-of-the-junior-developer
+#+REVEAL_HTML: <figure><img src="./images/agents-2026-II.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer">Source: https://sourcegraph.com/blog/revenge-of-the-junior-developer</a></figcaption></figure>
 
 * What? How?
 
@@ -72,7 +68,7 @@ https://sourcegraph.com/blog/revenge-of-the-junior-developer
 * Agenda/Today
 
 - 18:00 - Opening doors (Pizza & Beers) - All
-- 18:30 - Kickoff - Roland, Sven
+- 18:30 - Kickoff - Roland, Emil
 - 18:45 - AI PR Review: A (ServiceNow) Claude Plugin - Aditya
 - 19:30 - No slides. Only code - Roland
 - 20:15 - Wrap-up - Roland
