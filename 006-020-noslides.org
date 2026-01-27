@@ -12,9 +12,22 @@
 * Demo: How to sandbox claude?
 
 - Rock and a hard-place. Safe YOLO-mode!
-- dev-containers to the rescue (based on claude-devcontainer)
+- dev-containers to the rescue (based on claude-devcontainer; w/out fire-wall)
 - But ... you need more than one! Template the hell out of it!
 - Run it outside vscode!
+
+#+BEGIN_NOTES
+
+- Show warp terminal. Increase font. Switch to dark
+- Start ccc. Start container. Increase font. Switch to dark
+- Create 10 log files and delete them (YOLO; show /tmp)
+- Review devcontainer.json and Dockerfile (explain a section)
+- GH Copilot autocompletion still working
+- You need a lot of containers. Review src and Makefile
+- Show how to link a repo to the devcontainer
+- Show how to up/exec the devcontainer without ccc
+
+#+END_NOTES
  
 * Demo: Pegging AIs against each other (I)
 
@@ -32,6 +45,13 @@
 
 - Speckit by Github
 - Others ...
+
+* Demo: Big-Prompt/Small-Prompt
+
+- Be smart about it! Choose wisely/conciencly!
+- Build something (What) vs. Do something (How)
+- Vague vs. Specific
+- Product-Manager Mode vs. Pair-Programming Mode 
 
 * Demo: Screen-shotting the hell out of it
 
