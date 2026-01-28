@@ -81,8 +81,34 @@
 - Pair-Programming Driver/Navigator Mode
 - (Unsupervised) Automation (Jobs, Workflows, Loops, ...)
 
-* Demo: AI meets Mad-Max
+* Demo: AI meets Mad-Max (Gastown)
 
 - Let's drink the cool-aid (Steve Yegge style)
 - Task/Workflow Management with beads
 - Agent/Outcome Management with gastown
+
+#+BEGIN_NOTES
+
+- Show warp terminal. Increase font. Switch to dark
+- Start ccc. Start container. Increase font. Switch to dark
+- Show picture. Explain vision. "Kubernetes" for AI-fleets. Up vs. Done
+- Concepts (town, mayor, rigs, crews, ...). Confusing
+- WARNING: gastown is 100% vibe-coded with gastown. Waste time/money at your own risk
+- Show ailtir-town
+  - gt up
+  - gt mayor attach
+    - Check the datastructures. There are lots of ids. They should be UUIDs. Are they?
+  - gt doctor
+  - gt --help
+  - gt rig list
+  - ps aux | grep claude
+  - bd list
+  - bd ready
+  - gt mail inbox
+- Work in/with the mayor. Start the implementation ... and BOOM
+  - bd list
+  - gt shutdown
+  - killall claude
+- Question: Do people know about similar platforms (gastown competitors)
+
+#+END_NOTES

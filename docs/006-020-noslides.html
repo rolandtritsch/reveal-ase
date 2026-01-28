@@ -31,20 +31,39 @@
 <section id="sec-title-slide"><h1 class=title>No Slides/Just Code</h1><h3 class=title>Augmented Software Engineering Meetup</h3><h3 class=date>11-Sep-2025</h3><h4 class=email><a href="mailto:roland@tritsch.email">roland@tritsch.email</a></h4>
 </section>
 <section>
-<section id="slide-orga3fb7c0">
-<h2 id="orga3fb7c0">Demo: How to sandbox claude?</h2>
+<section id="slide-orgafe26d3">
+<h2 id="orgafe26d3">Demo: How to sandbox claude?</h2>
 <ul>
 <li>Rock and a hard-place. Safe YOLO-mode!</li>
-<li>dev-containers to the rescue (based on claude-devcontainer)</li>
+<li>dev-containers to the rescue (based on claude-devcontainer; w/out fire-wall)</li>
 <li>But &#x2026; you need more than one! Template the hell out of it!</li>
 <li>Run it outside vscode!</li>
 
 </ul>
+
+<aside class="notes">
+<p>
+
+</p>
+
+<ul>
+<li>Show warp terminal. Increase font. Switch to dark</li>
+<li>Start ccc. Start container. Increase font. Switch to dark</li>
+<li>Create 10 log files and delete them (YOLO; show /tmp)</li>
+<li>Review devcontainer.json and Dockerfile (explain a section)</li>
+<li>GH Copilot autocompletion still working</li>
+<li>You need a lot of containers. Review src and Makefile</li>
+<li>Show how to link a repo to the devcontainer</li>
+<li>Show how to up/exec the devcontainer without ccc</li>
+
+</ul>
+
+</aside>
 </section>
 </section>
 <section>
-<section id="slide-org5f0e4db">
-<h2 id="org5f0e4db">Demo: Pegging AIs against each other (I)</h2>
+<section id="slide-orgc4f8af9">
+<h2 id="orgc4f8af9">Demo: Pegging AIs against each other (I)</h2>
 <ul>
 <li>Have coderabbit review the PR</li>
 <li>Use <code>/pr-comments</code> to read and respond to comments</li>
@@ -54,8 +73,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org1df9c20">
-<h2 id="org1df9c20">Demo: Pegging AIs against each other (II)</h2>
+<section id="slide-orgf4dc513">
+<h2 id="orgf4dc513">Demo: Pegging AIs against each other (II)</h2>
 <ul>
 <li>Have claude write a spec</li>
 <li>And make gemini review the spec</li>
@@ -65,8 +84,8 @@
 </section>
 </section>
 <section>
-<section id="slide-orgc816b71">
-<h2 id="orgc816b71">Demo: Big-Prompt/Spec-Driven Development</h2>
+<section id="slide-org746eed1">
+<h2 id="org746eed1">Demo: Big-Prompt/Spec-Driven Development</h2>
 <ul>
 <li>Speckit by Github</li>
 <li>Others &#x2026;</li>
@@ -75,8 +94,20 @@
 </section>
 </section>
 <section>
-<section id="slide-org9ab1ddd">
-<h2 id="org9ab1ddd">Demo: Screen-shotting the hell out of it</h2>
+<section id="slide-org138d500">
+<h2 id="org138d500">Demo: Big-Prompt/Small-Prompt</h2>
+<ul>
+<li>Be smart about it! Choose wisely/conciencly!</li>
+<li>Build something (What) vs. Do something (How)</li>
+<li>Vague vs. Specific</li>
+<li>Product-Manager Mode vs. Pair-Programming Mode</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org939ff01">
+<h2 id="org939ff01">Demo: Screen-shotting the hell out of it</h2>
 <ul>
 <li>Who needs Loveable?</li>
 <li>The tmp folder</li>
@@ -86,8 +117,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org6cfb499">
-<h2 id="org6cfb499">Demo: Using skills</h2>
+<section id="slide-org14ce1e1">
+<h2 id="org14ce1e1">Demo: Using skills</h2>
 <ul>
 <li>The end of MCP? Cross-platform?</li>
 
@@ -95,8 +126,8 @@
 </section>
 </section>
 <section>
-<section id="slide-orgadbbc96">
-<h2 id="orgadbbc96">Demo: My vscode setup</h2>
+<section id="slide-orga805779">
+<h2 id="orga805779">Demo: My vscode setup</h2>
 <ul>
 <li>Using devcontainers</li>
 <li>Using GH copilot for completions</li>
@@ -106,8 +137,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org5fe79aa">
-<h2 id="org5fe79aa">Demo: My emacs setup</h2>
+<section id="slide-org2aa16b8">
+<h2 id="org2aa16b8">Demo: My emacs setup</h2>
 <ul>
 <li>Org-Mode and use-package</li>
 <li>Using claude (and gptel)</li>
@@ -117,8 +148,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org93595c7">
-<h2 id="org93595c7">Demo: The 3 ways to use AI</h2>
+<section id="slide-org9df80c8">
+<h2 id="org9df80c8">Demo: The 3 ways to use AI</h2>
 <ul>
 <li>Big-Prompt/SDD Mode</li>
 <li>Pair-Programming Driver/Navigator Mode</li>
@@ -128,14 +159,55 @@
 </section>
 </section>
 <section>
-<section id="slide-org6263191">
-<h2 id="org6263191">Demo: AI meets Mad-Max</h2>
+<section id="slide-org716232d">
+<h2 id="org716232d">Demo: AI meets Mad-Max (Gastown)</h2>
 <ul>
 <li>Let's drink the cool-aid (Steve Yegge style)</li>
 <li>Task/Workflow Management with beads</li>
 <li>Agent/Outcome Management with gastown</li>
 
 </ul>
+
+<aside class="notes">
+<p>
+
+</p>
+
+<ul>
+<li>Show warp terminal. Increase font. Switch to dark</li>
+<li>Start ccc. Start container. Increase font. Switch to dark</li>
+<li>Show picture. Explain vision. "Kubernetes" for AI-fleets. Up vs. Done</li>
+<li>Concepts (town, mayor, rigs, crews, &#x2026;). Confusing</li>
+<li>WARNING: gastown is 100% vibe-coded with gastown. Waste time/money at your own risk</li>
+<li>Show ailtir-town
+<ul>
+<li>gt up</li>
+<li>gt mayor attach
+<ul>
+<li>Check the datastructures. There are lots of ids. They should be UUIDs. Are they?</li>
+
+</ul></li>
+<li>gt doctor</li>
+<li>gt &#x2013;help</li>
+<li>gt rig list</li>
+<li>ps aux | grep claude</li>
+<li>bd list</li>
+<li>bd ready</li>
+<li>gt mail inbox</li>
+
+</ul></li>
+<li>Work in/with the mayor. Start the implementation &#x2026; and BOOM
+<ul>
+<li>bd list</li>
+<li>gt shutdown</li>
+<li>killall claude</li>
+
+</ul></li>
+<li>Question: Do people know about similar platforms (gastown competitors)</li>
+
+</ul>
+
+</aside>
 </section>
 </section>
 </div>
