@@ -90,14 +90,15 @@
 #+BEGIN_NOTES
 
 - Show warp terminal. Increase font. Switch to dark
-- Start ccc. Start container. Increase font. Switch to dark
 - Show picture. Explain vision. "Kubernetes" for AI-fleets. Up vs. Done
 - Concepts (town, mayor, rigs, crews, ...). Confusing
 - WARNING: gastown is 100% vibe-coded with gastown. Waste time/money at your own risk
 - Show ailtir-town
   - gt up
   - gt mayor attach
+    - Plan mode
     - Check the datastructures. There are lots of ids. They should be UUIDs. Are they?
+    - gastown is in the footer
   - gt doctor
   - gt --help
   - gt rig list
