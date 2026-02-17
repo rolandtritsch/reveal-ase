@@ -23,7 +23,7 @@
 
 * Roland
 
-#+REVEAL_HTML: <img src="./images/roland.png" width="80%"/>
+#+REVEAL_HTML: <figure><img src="./images/roland.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://tedn.life">Source: https://tedn.life</a></figcaption></figure>
 
 * Roland
 
