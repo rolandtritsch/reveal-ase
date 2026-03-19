@@ -22,3 +22,15 @@ More background: [[https://tedn.life/2024/10/24/the-augmented-software-engineer-
 
 The community began in November 2024 and held its inaugural meetup in January 2025.
 
+* Past Events
+
+| Date        | Title                                               | Location          | Attendees |
+|-------------+-----------------------------------------------------+-------------------+-----------|
+| 28-Jan-2026 | Automating Agentic-Coding: The missing puzzle piece | ServiceNow        |        94 |
+| 20-Nov-2025 | Agentic-Coding - The Practitioners Day              | Baseline          |       129 |
+| 11-Sep-2025 | Agentic-Coding vs. Vibe-Coding                      | Baseline/DBT-Labs |        86 |
+| 22-May-2025 | Demo-Day (Take II)                                  | Baseline/Intercom |        55 |
+| 20-Mar-2025 | Demo-Day                                            | Baseline/DreamDev |           |
+| 20-Feb-2025 | Token Windows and Model Scaling                     | Baseline/FiServe  |           |
+| 23-Jan-2025 | Tools and Practical AI Usage                        | Baseline/SonaLake |           |
+
