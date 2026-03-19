@@ -145,3 +145,22 @@ Venue: ServiceNow, Dublin
 | AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] |       |
 | No slides. Only code.                      | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
 | Wrap-up                                    | Roland    | [[https://tedn.life/reveal-ase/006-090-wrapup-slides.html][Slides]] |       |
+
+#+LATEX: \newpage
+* 26-Mar-2026
+
+** Agents at Work
+
+Venue: UCD, Dublin
+
+** Presentations
+
+#+ATTR_LATEX: :align p{14cm}lll
+| Title                      | Presenter | Slides | Video |
+|----------------------------+-----------+--------+-------|
+| <60>                       | <15>      | <10>   | <10>  |
+|----------------------------+-----------+--------+-------|
+| Kickoff                    | Roland    | [[https://tedn.life/reveal-ase/007-000-kickoff-slides.html][Slides]] |       |
+| Making Agents work for you | Brian     | [[https://tedn.life/reveal-ase/007-010-agents-at-work.pdf][Slides]] |       |
+| No slides. Only code.      | Roland    | [[https://tedn.life/reveal-ase/007-020-noslides-slides.html][Slides]] |       |
+| Wrap-up                    | Roland    | [[https://tedn.life/reveal-ase/007-090-wrapup-slides.html][Slides]] |       |
