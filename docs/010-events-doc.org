@@ -15,7 +15,7 @@ Venue: ServiceNow, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title                                      | Presenter | Slides | Video |
 |--------------------------------------------+-----------+--------+-------|
 | <60>                                       | <15>      | <10>   | <10>  |
@@ -31,7 +31,7 @@ Venue: Baseline/Jentic, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title                                                     | Presenter | Slides | Video |
 |-----------------------------------------------------------+-----------+--------+-------|
 | <60>                                                      | <15>      | <10>   | <10>  |
@@ -48,7 +48,7 @@ Venue: Baseline/DBT-Labs, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title                                                          | Presenter | Slides                                                                    | Video                                    |
 |----------------------------------------------------------------+-----------+---------------------------------------------------------------------------+------------------------------------------|
 | <60>                                                           | <15>      | <10>                                                                      | <10>                                     |
@@ -65,7 +65,7 @@ Venue: Baseline/Intercom, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title                                             | Presenter | Slides | Video |
 |---------------------------------------------------+-----------+--------+-------|
 | <60>                                              | <15>      | <10>   | <10>  |
@@ -83,7 +83,7 @@ Venue: Baseline/DreamDev, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title                                      | Presenter | Slides | Video |
 |--------------------------------------------+-----------+--------+-------|
 | <60>                                       | <15>      | <10>   | <10>  |
@@ -101,7 +101,7 @@ Venue: Baseline/FiServe, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title                             | Presenter     | Slides | Video |
 |-----------------------------------+---------------+--------+-------|
 | <60>                              | <15>          | <10>   | <10>  |
@@ -117,7 +117,7 @@ Venue: Baseline/SonaLake, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{8cm}lp{4cm}p{4cm}
+#+ATTR_LATEX: :align p{14cm}lll
 | Title             | Presenter | Slides | Video |
 |-------------------+-----------+--------+-------|
 | <60>              | <15>      | <10>   | <10>  |
