@@ -3,10 +3,11 @@
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+DATE: 01-Jan-2027
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:1
 #+LATEX_CLASS_OPTIONS: [12pt,landscape]
 #+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,landscape]{geometry}
 
+#+LATEX: \newpage
 * 28-Jan-2026
 
 ** Automating Agentic-Coding: The missing puzzle piece
@@ -23,6 +24,7 @@ Venue: ServiceNow, Dublin
 | AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] |       |
 | No slides. Only code.                      | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
 
+#+LATEX: \newpage
 * 20-Nov-2025
 
 ** Agentic-Coding - The Practitioners Day
@@ -40,6 +42,7 @@ Venue: Baseline/Jentic, Dublin
 | Practical Agentic-Coding: A journey of 12000 steps        | Karl      | [[https://tedn.life/reveal-ase/005-020-karl.pdf][Slides]] | [[https://youtu.be/y8om7rc2kmg][Video]] |
 | From Friction to Flow: Harnessing AI-Assisted Development | Dáire     | [[https://tedn.life/reveal-ase/005-030-daire.pdf][Slides]] | [[https://youtu.be/vOocTsPc5dk][Video]] |
 
+#+LATEX: \newpage
 * 11-Sep-2025
 
 ** Agentic-Coding vs. Vibe-Coding
@@ -57,6 +60,7 @@ Venue: Baseline/DBT-Labs, Dublin
 | Context Management Is All You Need                             | Jose      | [[https://tedn.life/reveal-ase/004-020-context-coding.pdf][Slides]]      | [[https://youtu.be/qBOOhsIpTz0][Video]]    |
 | Autonomous coding for out of distribution long running tasks   | Brian     | [[https://tedn.life/reveal-ase/004-030-real-coding.pdf][Slides]]      | [[https://youtu.be/SYsBEzcbcyU][Video]]    |
 
+#+LATEX: \newpage
 * 22-May-2025
 
 ** Demo-Day (Take II)
@@ -75,6 +79,7 @@ Venue: Baseline/Intercom, Dublin
 | Using an agentic AI Platform for code elimination | Iain      | [[https://tedn.life/reveal-ase/003-030-refactorer.pdf][Slides]] | [[https://youtu.be/WJW0Qtt5MdQ][Video]] |
 | IDE-less software-engineering with Warp           | Roland    | [[https://tedn.life/reveal-ase/003-040-warp-slides.html][Slides]] |       |
 
+#+LATEX: \newpage
 * 20-Mar-2025
 
 ** Demo-Day
@@ -93,6 +98,7 @@ Venue: Baseline/DreamDev, Dublin
 | Windsurf: Extending it with MCP            | Roland    | [[https://tedn.life/reveal-ase/002-030-mcp-slides.html][Slides]] |       |
 | Mobile vs. AI                              | Sasha     | [[https://tedn.life/reveal-ase/002-040-mobile.pdf][Slides]] | [[https://youtu.be/BDFP9NlzXTA][Video]] |
 
+#+LATEX: \newpage
 * 20-Feb-2025
 
 ** Token Windows and Model Scaling
@@ -109,6 +115,7 @@ Venue: Baseline/FiServe, Dublin
 | A window with 1M tokens!          | Karl Matthias | [[https://tedn.life/reveal-ase/001-010-supermaven.pdf][Slides]] |       |
 | When does large, become too large | Eoin Barry    | [[https://tedn.life/reveal-ase/001-020-arcpilot.pdf][Slides]] |       |
 
+#+LATEX: \newpage
 * 23-Jan-2025
 
 ** Tools and Practical AI Usage
