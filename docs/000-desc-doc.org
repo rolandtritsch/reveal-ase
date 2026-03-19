@@ -9,20 +9,16 @@
 
 * Description
 
-In the next 3 years we all need to figure out how to become an Augmented Software
-Engineer. How to use AI to develop better systems faster and how to maintain large
-systems more efficiently.
+In the next 3 years we all need to figure out how to become an Augmented
+Software Engineer. How to use AI to develop better systems faster and how to
+maintain large systems more efficiently.
 
-Currently we all learn in isolation. That is sub-optimal. The goal of this meetup is
-to convene monthly gatherings where members can exchange knowledge about leveraging AI
-in software development and collectively devise strategies for rapid, effective learning
-on the topic.
+Currently we all learn in isolation. That is sub-optimal. The goal of this
+meetup is to convene monthly gatherings where members can exchange knowledge
+about leveraging AI in software development and collectively devise strategies
+for rapid, effective learning on the topic.
 
-More background: [[https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it][The Augmented Software Engineer - What is it?]]
+* Links
 
-The community began in November 2024 and held its inaugural meetup in January 2025.
-
-* Past Events
-
-See [[file:010-events-doc.org][010-events-doc.org]].
-
+- [[https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it][The Augmented Software Engineer - What is it?]]
+- [[https://tedn.life/reveal-ase/010-events-doc.pdf][Past Events]]
