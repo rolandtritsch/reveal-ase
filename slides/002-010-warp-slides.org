@@ -7,7 +7,7 @@
 #+REVEAL_INIT_OPTIONS: width: "80%"
 #+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
-#+OPTIONS: toc:nil num:nil 
+#+OPTIONS: toc:nil num:nil
 
 * Stage-Setting
 
@@ -20,6 +20,14 @@
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/warp.png" width="80%"/></div>
 
+#+BEGIN_NOTES
+- Rust, 2 years old, pivoted to be(come) an AI-terminal, ...
+- Models, ..., deepseek-r1 (reasoning) vs. deepseek-v3 (chat/query)
+- Pair/Chat vs. Dispatch (Beta) (allow/deny-list)
+- Lot's of (other) features (warp-drive/aliases) that we are not going to talk about
+- Auto-Completion, Prompt-Suggestion, Next-Command
+#+END_NOTES
+
 * Demo
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
@@ -31,6 +39,21 @@
 #+REVEAL_HTML: </div>
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/warp.png" width="80%"/></div>
+
+#+BEGIN_NOTES
+** Natural Language Terminal (deepseek-v3)
+- Find 10 largest files in ~/Development
+  - Ignore .git directories
+- Create a bash implementation to calcluate the n-th element of the fibonacci sequence, where n is the first and only parameter passed to the shell script
+  - deepseek-v3 vs. claude-3.7
+
+** Trouble-Shooting
+- Failed build (fibonacci.sh)
+
+** Tasks and Outcomes
+- Pick 10 random pictures from "~/Dropbox/Camera Uploads" and run them as a slide show
+- Take all the video and image artifacts in <folder> and create a video from them
+#+END_NOTES
 
 * Take-a-ways
 

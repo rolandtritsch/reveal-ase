@@ -7,7 +7,7 @@
 #+REVEAL_INIT_OPTIONS: width: "80%"
 #+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
-#+OPTIONS: toc:nil num:nil 
+#+OPTIONS: toc:nil num:nil
 
 * Stage-Setting
 
@@ -26,10 +26,32 @@
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - Install, use, run, ..., build, ...
-- Why using it? What does it do/add? Value? 
+- Why using it? What does it do/add? Value?
 #+REVEAL_HTML: </div>
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/mcp-logo.png" width="50%"/></div>
+
+#+BEGIN_NOTES
+** Roland MCP-Server
+- Who is Roland?
+  - I don't know
+- Review the server
+  - State, Resources, ...
+- Install/Configure it ...
+- Test it ...
+
+** More/Other MCP-Servers
+- [[https://mcp.so/][mcp.so]]
+- [[https://github.com/modelcontextprotocol/servers][MCP-Servers]]
+- Awesome [[https://github.com/modelcontextprotocol/servers?tab=readme-ov-file#-resources][Resources]]
+
+** Github
+- The [[https://github.com/modelcontextprotocol/servers/tree/main/src/github][Server]]
+- Install/Configure it ...
+- Break the code (transportx)
+  - Ask Cascade to explain the problem
+  - Ask Cascade to create an issue to fix it
+#+END_NOTES
 
 * Take-a-ways
 

@@ -7,11 +7,39 @@
 #+REVEAL_INIT_OPTIONS: width: "80%"
 #+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
-#+OPTIONS: toc:nil num:nil 
+#+OPTIONS: toc:nil num:nil
 
 * Welcome
 
 #+REVEAL_HTML: <img src="./images/robot.webp" width="30%"/>
+
+#+BEGIN_NOTES
+** General
+- Silence phone
+- Start caffine
+- Shutdown all other apps (slack, email, gtd, ...)
+
+** Pictures
+
+** Audio
+- Bluetooth
+
+** Video
+- Camera-1 (Theater): Full room from the right
+- Camera-2 (Sony): Just Roland from the left
+- Camera-3 (Laptop): Just Roland
+
+** Screen
+- Screen recording
+- Larger font
+- Solarized Light/Dark
+- Prompt input position classic mode (Warp)
+
+** Projector
+- Very long HDMI cable
+- swaymsg -d get_outputs
+- wl-mirror <output>
+#+END_NOTES
 
 * Welcome
 
@@ -26,7 +54,7 @@
 - (Fractional) CTO, VP Engineering, ...
 - Specialized in early (remote-first) start-ups
 - The Extreme Digital Nomad, The Augmented Software Engineer
-- Ex-IONA, Ex-Gilt, Ex-Nitro, Ex-Community, ... 
+- Ex-IONA, Ex-Gilt, Ex-Nitro, Ex-Community, ...
 - SaaS, Distributed-Systems, Event-based Systems, ...
 - Functional Programing (Haskell, Scala, Elixir/Erlang, ...)
 
@@ -46,9 +74,9 @@
   - AI will replace all software-engineers: **Probably not!**
 - AI has the potential to make you a better (more productive, more efficient, more effective) software-engineer: **Very likely!**
   - By how much? I don't know! But more than 0%!
-- And yes: We can learn this on our own, at home, watching YouTube, ... 
+- And yes: We can learn this on our own, at home, watching YouTube, ...
   - But it will be _faster_ (more _fun_ :)), if we learn together/from each other
-- Let's have some [[https://youtu.be/pFHwKVeVei4?si=LsiznwuAaGiSxiOy&t=210][fun]], shall we? 
+- Let's have some [[https://youtu.be/pFHwKVeVei4?si=LsiznwuAaGiSxiOy&t=210][fun]], shall we?
 
 * Why?
 

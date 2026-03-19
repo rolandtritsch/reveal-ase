@@ -7,7 +7,7 @@
 #+REVEAL_INIT_OPTIONS: width: "80%"
 #+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
-#+OPTIONS: toc:nil num:nil 
+#+OPTIONS: toc:nil num:nil
 
 * Stage-Setting
 
@@ -25,12 +25,46 @@
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - Install, ..., push/pull, list, run, ...
 - Base, instruct, code, ..., 3b, 7b, 32b, ..., Q4-K-M, ...
-- Configuration, ..., 
+- Configuration, ...,
 - Test(s), ...
 - VsCode, ...
 #+REVEAL_HTML: </div>
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/ollama.png" width="50%"/></div>
+
+#+BEGIN_NOTES
+** Install/Manage
+- == https://ollama.com ==
+- == curl -fsSL https://ollama.com/install.sh | sh  ==
+- ollama push, pull, run, ...
+- Tools, vision (pictures), embeddings, ...
+- 1.5b, 3b, 7b, ..., 32b, ...
+- base/chat, instruct/code, ...
+- Quantization, Q4_K_M, ... (to make the model smaller (memory))
+- Use qwen2.5-coder as an example
+
+** Run
+- (Disclaimer) My HW (is not very good/powerful)
+   - lspci | grep -i vga
+   - (on CPU) Intel Corporation Alder Lake-P Integrated Graphics Controller
+- deepseek, llama, qwen, mistral, ...
+- Test(s) ...
+   - Why is the sky blue? (qwen2.5-coder:1.5b/3b, llama3.2, llama3.1, ..., deepseek-r1:1.5b)
+   - Let's break a cipher. If "BCCB" means "ABBA", what does "Ifmmp Xpsme" mean? (qwen-coder:1.5b/3b/7b, deepseek-r1:1.5b)
+     - Let's break a cipher. If "Rovvy Gybvn" means "Hello World", what does "Dro Keqwoxdon Cypdgkbo Oxqsxoob" mean?
+   - Can you explain why "SEND" + "MORE" = "MONEY"?
+- ollama help (ps, ...)
+- Configuration, ... (FLASH_ATTENTION, KV_CACHE_TYPE)
+   - /set parameter list
+
+** VsCode
+- ollama-autocoder (one of many)
+  - Continue, Cline, Cody, ...
+- Show settings (url, model, ...)
+  - ollama in the cloud
+- Generate fibonacci sequence in python
+  - Good (enough) for offline work? Not sure! Needs more work!
+#+END_NOTES
 
 * Take-a-ways
 
