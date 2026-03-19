@@ -48,7 +48,7 @@ verify-slides: ## Screenshot generated slide PDFs into tmp/ for visual verificat
 publish: generate-pdf generate-html fix-reveal-notes generate-print-pdf ## Move generated HTML/PDF files to public/
 	@echo "Publishing HTML/PDF files to public ..."
 	@mkdir -p ./public
-	@ln -sf ./images ./public/images
+	@ln -sf ../images ./public/images
 	@for pattern in $(PUBLISH_PATTERNS); do find . -not -path './public/*' -name "$$pattern" -type f | xargs -I {file} mv {file} ./public; done
 	@cp ./pdfs/*.pdf ./public
 	@echo "Published successfully"
