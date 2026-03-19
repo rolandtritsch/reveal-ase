@@ -8,76 +8,38 @@
 #+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,landscape]{geometry}
 
 #+LATEX: \newpage
-* 28-Jan-2026
+* 23-Jan-2025
 
-** Automating Agentic-Coding: The missing puzzle piece
+** Tools and Practical AI Usage
 
-Venue: ServiceNow, Dublin
+Venue: Baseline/SonaLake, Dublin
 
 ** Presentations
 
 #+ATTR_LATEX: :align p{14cm}lll
-| Title                                      | Presenter | Slides | Video |
-|--------------------------------------------+-----------+--------+-------|
-| <60>                                       | <15>      | <10>   | <10>  |
-|--------------------------------------------+-----------+--------+-------|
-| AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] |       |
-| No slides. Only code.                      | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
+| Title             | Presenter | Slides | Video |
+|-------------------+-----------+--------+-------|
+| <60>              | <15>      | <10>   | <10>  |
+|-------------------+-----------+--------+-------|
+| Tools and tooling | Roland    | [[https://tedn.life/reveal-ase/000-010-tools-slides.html][Slides]] |       |
+| Using AI in anger | Ciaran    | [[https://tedn.life/reveal-ase/000-020-best.pdf][Slides]] |       |
 
 #+LATEX: \newpage
-* 20-Nov-2025
+* 20-Feb-2025
 
-** Agentic-Coding - The Practitioners Day
+** Token Windows and Model Scaling
 
-Venue: Baseline/Jentic, Dublin
-
-** Presentations
-
-#+ATTR_LATEX: :align p{14cm}lll
-| Title                                                     | Presenter | Slides | Video |
-|-----------------------------------------------------------+-----------+--------+-------|
-| <60>                                                      | <15>      | <10>   | <10>  |
-|-----------------------------------------------------------+-----------+--------+-------|
-| Agentic-Coding with Jentic                                | Liam      | [[https://tedn.life/reveal-ase/005-010-liam.pdf][Slides]] |       |
-| Practical Agentic-Coding: A journey of 12000 steps        | Karl      | [[https://tedn.life/reveal-ase/005-020-karl.pdf][Slides]] | [[https://youtu.be/y8om7rc2kmg][Video]] |
-| From Friction to Flow: Harnessing AI-Assisted Development | Dáire     | [[https://tedn.life/reveal-ase/005-030-daire.pdf][Slides]] | [[https://youtu.be/vOocTsPc5dk][Video]] |
-
-#+LATEX: \newpage
-* 11-Sep-2025
-
-** Agentic-Coding vs. Vibe-Coding
-
-Venue: Baseline/DBT-Labs, Dublin
+Venue: Baseline/FiServe, Dublin
 
 ** Presentations
 
 #+ATTR_LATEX: :align p{14cm}lll
-| Title                                                          | Presenter | Slides                                                                    | Video                                    |
-|----------------------------------------------------------------+-----------+---------------------------------------------------------------------------+------------------------------------------|
-| <60>                                                           | <15>      | <10>                                                                      | <10>                                     |
-|----------------------------------------------------------------+-----------+---------------------------------------------------------------------------+------------------------------------------|
-| Vibing beyond code: Project Management for the lazy            | René      | [[https://tedn.life/reveal-ase/004-010-design-coding.pdf][Slides]]      | [[https://youtu.be/Mcd-cnEWEtk][Video]]    |
-| Context Management Is All You Need                             | Jose      | [[https://tedn.life/reveal-ase/004-020-context-coding.pdf][Slides]]      | [[https://youtu.be/qBOOhsIpTz0][Video]]    |
-| Autonomous coding for out of distribution long running tasks   | Brian     | [[https://tedn.life/reveal-ase/004-030-real-coding.pdf][Slides]]      | [[https://youtu.be/SYsBEzcbcyU][Video]]    |
-
-#+LATEX: \newpage
-* 22-May-2025
-
-** Demo-Day (Take II)
-
-Venue: Baseline/Intercom, Dublin
-
-** Presentations
-
-#+ATTR_LATEX: :align p{14cm}lll
-| Title                                             | Presenter | Slides | Video |
-|---------------------------------------------------+-----------+--------+-------|
-| <60>                                              | <15>      | <10>   | <10>  |
-|---------------------------------------------------+-----------+--------+-------|
-| Implementing an MCP Server (in 15 mins)           | Kavith    | [[https://tedn.life/reveal-ase/003-010-mcp.pdf][Slides]] | [[https://youtu.be/RIu8i-WscCw][Video]] |
-| Secure coding and secure design with AI           | David     | [[https://tedn.life/reveal-ase/003-020-security.pdf][Slides]] | [[https://youtu.be/4mmTqIzimKg][Video]] |
-| Using an agentic AI Platform for code elimination | Iain      | [[https://tedn.life/reveal-ase/003-030-refactorer.pdf][Slides]] | [[https://youtu.be/WJW0Qtt5MdQ][Video]] |
-| IDE-less software-engineering with Warp           | Roland    | [[https://tedn.life/reveal-ase/003-040-warp-slides.html][Slides]] |       |
+| Title                             | Presenter     | Slides | Video |
+|-----------------------------------+---------------+--------+-------|
+| <60>                              | <15>          | <10>   | <10>  |
+|-----------------------------------+---------------+--------+-------|
+| A window with 1M tokens!          | Karl Matthias | [[https://tedn.life/reveal-ase/001-010-supermaven.pdf][Slides]] |       |
+| When does large, become too large | Eoin Barry    | [[https://tedn.life/reveal-ase/001-020-arcpilot.pdf][Slides]] |       |
 
 #+LATEX: \newpage
 * 20-Mar-2025
@@ -99,35 +61,73 @@ Venue: Baseline/DreamDev, Dublin
 | Mobile vs. AI                              | Sasha     | [[https://tedn.life/reveal-ase/002-040-mobile.pdf][Slides]] | [[https://youtu.be/BDFP9NlzXTA][Video]] |
 
 #+LATEX: \newpage
-* 20-Feb-2025
+* 22-May-2025
 
-** Token Windows and Model Scaling
+** Demo-Day (Take II)
 
-Venue: Baseline/FiServe, Dublin
+Venue: Baseline/Intercom, Dublin
 
 ** Presentations
 
 #+ATTR_LATEX: :align p{14cm}lll
-| Title                             | Presenter     | Slides | Video |
-|-----------------------------------+---------------+--------+-------|
-| <60>                              | <15>          | <10>   | <10>  |
-|-----------------------------------+---------------+--------+-------|
-| A window with 1M tokens!          | Karl Matthias | [[https://tedn.life/reveal-ase/001-010-supermaven.pdf][Slides]] |       |
-| When does large, become too large | Eoin Barry    | [[https://tedn.life/reveal-ase/001-020-arcpilot.pdf][Slides]] |       |
+| Title                                             | Presenter | Slides | Video |
+|---------------------------------------------------+-----------+--------+-------|
+| <60>                                              | <15>      | <10>   | <10>  |
+|---------------------------------------------------+-----------+--------+-------|
+| Implementing an MCP Server (in 15 mins)           | Kavith    | [[https://tedn.life/reveal-ase/003-010-mcp.pdf][Slides]] | [[https://youtu.be/RIu8i-WscCw][Video]] |
+| Secure coding and secure design with AI           | David     | [[https://tedn.life/reveal-ase/003-020-security.pdf][Slides]] | [[https://youtu.be/4mmTqIzimKg][Video]] |
+| Using an agentic AI Platform for code elimination | Iain      | [[https://tedn.life/reveal-ase/003-030-refactorer.pdf][Slides]] | [[https://youtu.be/WJW0Qtt5MdQ][Video]] |
+| IDE-less software-engineering with Warp           | Roland    | [[https://tedn.life/reveal-ase/003-040-warp-slides.html][Slides]] |       |
 
 #+LATEX: \newpage
-* 23-Jan-2025
+* 11-Sep-2025
 
-** Tools and Practical AI Usage
+** Agentic-Coding vs. Vibe-Coding
 
-Venue: Baseline/SonaLake, Dublin
+Venue: Baseline/DBT-Labs, Dublin
 
 ** Presentations
 
 #+ATTR_LATEX: :align p{14cm}lll
-| Title             | Presenter | Slides | Video |
-|-------------------+-----------+--------+-------|
-| <60>              | <15>      | <10>   | <10>  |
-|-------------------+-----------+--------+-------|
-| Tools and tooling | Roland    | [[https://tedn.life/reveal-ase/000-010-tools-slides.html][Slides]] |       |
-| Using AI in anger | Ciaran    | [[https://tedn.life/reveal-ase/000-020-best.pdf][Slides]] |       |
+| Title                                                          | Presenter | Slides                                                                    | Video                                    |
+|----------------------------------------------------------------+-----------+---------------------------------------------------------------------------+------------------------------------------|
+| <60>                                                           | <15>      | <10>                                                                      | <10>                                     |
+|----------------------------------------------------------------+-----------+---------------------------------------------------------------------------+------------------------------------------|
+| Vibing beyond code: Project Management for the lazy            | René      | [[https://tedn.life/reveal-ase/004-010-design-coding.pdf][Slides]]      | [[https://youtu.be/Mcd-cnEWEtk][Video]]    |
+| Context Management Is All You Need                             | Jose      | [[https://tedn.life/reveal-ase/004-020-context-coding.pdf][Slides]]      | [[https://youtu.be/qBOOhsIpTz0][Video]]    |
+| Autonomous coding for out of distribution long running tasks   | Brian     | [[https://tedn.life/reveal-ase/004-030-real-coding.pdf][Slides]]      | [[https://youtu.be/SYsBEzcbcyU][Video]]    |
+
+#+LATEX: \newpage
+* 20-Nov-2025
+
+** Agentic-Coding - The Practitioners Day
+
+Venue: Baseline/Jentic, Dublin
+
+** Presentations
+
+#+ATTR_LATEX: :align p{14cm}lll
+| Title                                                     | Presenter | Slides | Video |
+|-----------------------------------------------------------+-----------+--------+-------|
+| <60>                                                      | <15>      | <10>   | <10>  |
+|-----------------------------------------------------------+-----------+--------+-------|
+| Agentic-Coding with Jentic                                | Liam      | [[https://tedn.life/reveal-ase/005-010-liam.pdf][Slides]] |       |
+| Practical Agentic-Coding: A journey of 12000 steps        | Karl      | [[https://tedn.life/reveal-ase/005-020-karl.pdf][Slides]] | [[https://youtu.be/y8om7rc2kmg][Video]] |
+| From Friction to Flow: Harnessing AI-Assisted Development | Dáire     | [[https://tedn.life/reveal-ase/005-030-daire.pdf][Slides]] | [[https://youtu.be/vOocTsPc5dk][Video]] |
+
+#+LATEX: \newpage
+* 28-Jan-2026
+
+** Automating Agentic-Coding: The missing puzzle piece
+
+Venue: ServiceNow, Dublin
+
+** Presentations
+
+#+ATTR_LATEX: :align p{14cm}lll
+| Title                                      | Presenter | Slides | Video |
+|--------------------------------------------+-----------+--------+-------|
+| <60>                                       | <15>      | <10>   | <10>  |
+|--------------------------------------------+-----------+--------+-------|
+| AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] |       |
+| No slides. Only code.                      | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
