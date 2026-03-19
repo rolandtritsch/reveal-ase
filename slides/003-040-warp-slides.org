@@ -1,6 +1,6 @@
 #+TITLE: IDE-less software-engineering with Warp
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: <2025-05-2025>
+#+DATE: 22-May-2025
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_THEME: beige

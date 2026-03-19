@@ -1,6 +1,6 @@
 #+TITLE: Kickoff
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: <2025-01-01>
+#+DATE: 01-Jan-2025
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+OPTIONS: timestamp:t title:t author:nil email:t

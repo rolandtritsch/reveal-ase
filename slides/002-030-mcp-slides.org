@@ -1,6 +1,6 @@
 #+TITLE: Using MCP-Servers to pimp my Windsurf
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: <2025-03-20>
+#+DATE: 20-Mar-2025
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_THEME: beige

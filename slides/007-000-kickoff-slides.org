@@ -1,6 +1,6 @@
 #+TITLE: Kickoff
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: <2026-01-26>
+#+DATE: 26-Jan-2026
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_THEME: beige

@@ -1,6 +1,6 @@
 #+TITLE: Wrap-up
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: <2025-09-11>
+#+DATE: 11-Sep-2025
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_THEME: beige
