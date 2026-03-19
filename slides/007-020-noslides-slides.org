@@ -1,6 +1,6 @@
 #+TITLE: No Slides/Just Code
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: 11-Sep-2025
+#+DATE: 26-Mar-2026
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_THEME: beige

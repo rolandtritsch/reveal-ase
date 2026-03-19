@@ -1,6 +1,6 @@
 #+TITLE: Kickoff
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: 26-Jan-2026
+#+DATE: 26-Mar-2026
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_THEME: beige
@@ -17,10 +17,6 @@
 
 #+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
 
-* Welcome
-
-#+REVEAL_HTML: <figure><img src="./images/growth-2025-II.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://chatgpt.com/share/696a00de-b55c-8013-a81f-dca9b11ddeb3">Source: https://chatgpt.com/share/696a00de-b55c-8013-a81f-dca9b11ddeb3</a></figcaption></figure>
-
 * Roland
 
 #+REVEAL_HTML: <figure><img src="./images/roland.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://tedn.life">Source: https://tedn.life</a></figcaption></figure>
@@ -36,7 +32,7 @@
 
 * Thank you!
 
-#+REVEAL_HTML: <img src="./images/servicenow.png" width="40%"/>
+#+REVEAL_HTML: <img src="./images/crest-ucd.svg" width="40%"/>
 
 * Why?
 
@@ -71,8 +67,8 @@
 * Agenda/Today
 
 - 18:00 - Opening doors (Pizza & Beers) - All
-- 18:30 - Kickoff - Roland, Emil
-- 18:45 - AI PR Review: A (ServiceNow) Claude Plugin - Aditya
+- 18:30 - Kickoff - Roland
+- 18:45 - Making Agents work for you - Brian
 - 19:30 - No slides. Only code - Roland
 - 20:15 - Wrap-up - Roland
 - 20:20 - More beers, more mingling - All
