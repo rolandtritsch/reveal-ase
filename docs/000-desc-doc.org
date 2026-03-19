@@ -1,5 +1,5 @@
-#+TITLE: Template Document
-#+SUBTITLE: Template Subtitle
+#+TITLE: Overview
+#+SUBTITLE: Augmented Software-Engineer Meetup
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+DATE: 01-Jan-2027
@@ -7,6 +7,6 @@
 #+LATEX_CLASS_OPTIONS: [12pt]
 #+LATEX_HEADER: \usepackage[left=4cm,right=4cm,top=2cm,bottom=2cm]{geometry}
 
-* Template Heading
+* Description
 
-Template text.
+
