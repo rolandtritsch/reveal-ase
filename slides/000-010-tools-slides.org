@@ -1,12 +1,12 @@
-#+title: Tools - Windsurf
-#+subtitle: Augmented Software Engineering Meetup
-#+date: <2025-01-01>
-#+author: Roland Tritsch
-#+email: roland@tritsch.email
-#+options: timestamp:t title:t author:t
-#+options: toc:nil num:nil date:nil
-#+reveal_theme: beige
-#+reveal_init_options: width:"80%"
+#+TITLE: Tools - Windsurf
+#+SUBTITLE: Augmented Software Engineering Meetup
+#+DATE: <2025-01-01>
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+OPTIONS: timestamp:t title:t author:t
+#+OPTIONS: toc:nil num:nil date:nil
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: width:"80%"
 
 * A Suggestion ...
 

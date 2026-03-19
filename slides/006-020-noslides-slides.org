@@ -1,13 +1,13 @@
-#+title: No Slides/Just Code
-#+subtitle: Augmented Software Engineering Meetup
-#+date: <2025-09-11>
-#+author: Roland Tritsch
-#+email: roland@tritsch.email
-#+reveal_theme: beige
-#+reveal_init_options: width: "80%"
-#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>11-Sep-2025</h3><h4 class=email>%e</h4>
-#+options: title:nil author:nil email:nil date:nil timestamp:nil
-#+options: toc:nil num:nil 
+#+TITLE: No Slides/Just Code
+#+SUBTITLE: Augmented Software Engineering Meetup
+#+DATE: <2025-09-11>
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: width: "80%"
+#+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>11-Sep-2025</h3><h4 class=email>%e</h4>
+#+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
+#+OPTIONS: toc:nil num:nil 
 
 * Demo: How to sandbox claude?
 
