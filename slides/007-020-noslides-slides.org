@@ -9,12 +9,12 @@
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
 #+OPTIONS: toc:nil num:nil 
 
-* Demo: Big-Prompt/Spec-Driven Development
+* [[https://youtu.be/ZSGLxozN5wE][Demo]]: Big-Prompt/Spec-Driven Development
 
-- Speckit by Github
+- [[https://github.com/github/spec-kit][SpecKit]] by Github
 - Others ...
 
-* Demo: Big-Prompt/Small-Prompt
+* [[https://youtu.be/Qn9_GIMMzNc][Demo]]: Big-Prompt/Small-Prompt
 
 - Be smart about it! Choose wisely/conciencly!
 - Build something (What) vs. Do something (How)
