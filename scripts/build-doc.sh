@@ -10,6 +10,7 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 FILE="$(realpath "$1")"
 BASE="${FILE%.org}"
 PDF="${BASE}.pdf"
+TEX="${BASE}.tex"
 PUBLIC="${REPO_ROOT}/public"
 
 # 1. Generate PDF via LaTeX
@@ -26,3 +27,4 @@ emacs --batch -Q \
 # 2. Move to public/
 mkdir -p "${PUBLIC}"
 mv "${PDF}" "${PUBLIC}/"
+mv "${TEX}" "${PUBLIC}/"
