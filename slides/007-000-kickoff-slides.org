@@ -11,11 +11,7 @@
 
 * Welcome
 
-#+REVEAL_HTML: <img src="./images/robot.webp" width="30%"/>
-
-* Welcome
-
-#+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
+#+REVEAL_HTML: <img src="./images/1000.png" width="50%"/>
 
 * Roland
 
@@ -32,7 +28,7 @@
 
 * Thank you!
 
-#+REVEAL_HTML: <img src="./images/crest-ucd.svg" width="40%"/>
+#+REVEAL_HTML: <img src="./images/crest-ucd.svg" width="35%"/>
 
 * Why?
 
@@ -43,7 +39,7 @@
 #+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
 #+REVEAL_HTML: <div style="width: 60%;">
 - Cadence: Every 2 month
-- Next one in March. Agentic-Coding (Take III)
+- Next one in May. No slides/Just code!!!
 - Call-for-Sponsors (!!!)
 - Call-for-Papers/Presentations (!!!)
   - Tools, Products, Platforms, ...
