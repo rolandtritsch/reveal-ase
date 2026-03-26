@@ -15,7 +15,7 @@
 
 * Roland
 
-#+REVEAL_HTML: <figure><img src="./images/roland.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://tedn.life">Source: https://tedn.life</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/roland.png" width="70%"/><figcaption style="font-size: 0.5em;"><a href="https://tedn.life">Source: https://tedn.life</a></figcaption></figure>
 
 * Roland
 
@@ -32,12 +32,10 @@
 
 * Why?
 
-#+REVEAL_HTML: <figure><img src="./images/agents-2026-II.png" width="50%"/><figcaption style="font-size: 0.5em;"><a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer">Source: https://sourcegraph.com/blog/revenge-of-the-junior-developer</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/agents-2026-II.png" width="70%"/><figcaption style="font-size: 0.5em;"><a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer">Source: https://sourcegraph.com/blog/revenge-of-the-junior-developer</a></figcaption></figure>
 
 * What? How?
 
-#+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
-#+REVEAL_HTML: <div style="width: 60%;">
 - Cadence: Every 2 month
 - Next one in May. No slides/Just code!!!
 - Call-for-Sponsors (!!!)
@@ -45,9 +43,6 @@
   - Tools, Products, Platforms, ...
   - Best Practices, Experience, ...
   - Processes, Workflows, ...
-#+REVEAL_HTML: </div>
-#+REVEAL_HTML: <div style="width: 40%; display: flex; align-items: center; justify-content: center;"><img src="./images/topics.png" width="100%"/></div>
-#+REVEAL_HTML: </div>
 
 * Logistics
 
