@@ -143,7 +143,7 @@ Venue: ServiceNow, Dublin
 |--------------------------------------------+-----------+--------+-------|
 | Kickoff                                    | Roland    | [[https://tedn.life/reveal-ase/006-000-kickoff-slides.html][Slides]] |       |
 | AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] |       |
-| No slides. Only code.                      | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
+| No slides. Only code - Sandbox             | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
 | Wrap-up                                    | Roland    | [[https://tedn.life/reveal-ase/006-090-wrapup-slides.html][Slides]] |       |
 
 #+LATEX: \newpage
@@ -156,11 +156,10 @@ Venue: UCD, Dublin
 ** Presentations
 
 #+ATTR_LATEX: :align p{14cm}lll
-| Title                      | Presenter | Slides | Video |
-|----------------------------+-----------+--------+-------|
-| <60>                       | <15>      | <10>   | <10>  |
-|----------------------------+-----------+--------+-------|
-| Kickoff                    | Roland    | [[https://tedn.life/reveal-ase/007-000-kickoff-slides.html][Slides]] |       |
-| Making Agents work for you | Brian     | [[https://tedn.life/reveal-ase/007-010-agents-at-work.pdf][Slides]] |       |
-| No slides. Only code.      | Roland    | [[https://tedn.life/reveal-ase/007-020-noslides-slides.html][Slides]] |       |
-| Wrap-up                    | Roland    | [[https://tedn.life/reveal-ase/007-090-wrapup-slides.html][Slides]] |       |
+| Title                                   | Presenter | Slides | Video | Notes           |
+|-----------------------------------------+-----------+--------+-------+-----------------|
+| <60>                                    | <15>      | <10>   | <10>  | <20>            |
+|-----------------------------------------+-----------+--------+-------+-----------------|
+| Kickoff                                 | Roland    | [[https://tedn.life/reveal-ase/007-000-kickoff-slides.html][Slides]] | [[https://youtu.be/tSSpwTF_qGQ][Video]] |                 |
+| Making Agents work for you              | Brian     | [[https://tedn.life/reveal-ase/007-010-agents-at-work.pdf][Slides]] | [[https://youtu.be/dfpOJWPFeCc][Video]] |                 |
+| No slides. Only code - SDD with SpecKit | Roland    | [[https://tedn.life/reveal-ase/007-020-noslides-slides.html][Slides]] | [[https://youtu.be/OYCDV1IH-W4][Video]] | [[https://youtu.be/ZSGLxozN5wE][Screencast]] [[https://github.com/rolandtritsch/scala3-sorting-algo-visualizer-speckit][Repo]] |
