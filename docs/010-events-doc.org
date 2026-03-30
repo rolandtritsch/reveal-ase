@@ -48,7 +48,7 @@ Venue: Baseline/FiServe, Dublin
 #+LATEX: \newpage
 * 20-Mar-2025
 
-** Demo-Day
+** Demo-Day (I)
 
 Venue: Baseline/DreamDev, Dublin
 
@@ -69,7 +69,7 @@ Venue: Baseline/DreamDev, Dublin
 #+LATEX: \newpage
 * 22-May-2025
 
-** Demo-Day (Take II)
+** Demo-Day (II)
 
 Venue: Baseline/Intercom, Dublin
 
@@ -130,7 +130,7 @@ Venue: Baseline/Jentic, Dublin
 #+LATEX: \newpage
 * 28-Jan-2026
 
-** Automating Agentic-Coding: The missing puzzle piece
+** Agentic-Coding - The missing puzzle piece
 
 Venue: ServiceNow, Dublin
 
@@ -149,13 +149,13 @@ Venue: ServiceNow, Dublin
 #+LATEX: \newpage
 * 26-Mar-2026
 
-** Agents at Work
+** Agentic Coding - Agents at Work
 
 Venue: UCD, Dublin
 
 ** Presentations
 
-#+ATTR_LATEX: :align p{14cm}lll
+#+ATTR_LATEX: :align p{10cm}llll
 | Title                                   | Presenter | Slides | Video | Notes           |
 |-----------------------------------------+-----------+--------+-------+-----------------|
 | <60>                                    | <15>      | <10>   | <10>  | <20>            |
