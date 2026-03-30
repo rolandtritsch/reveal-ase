@@ -141,9 +141,9 @@ Venue: ServiceNow, Dublin
 |--------------------------------------------+-----------+--------+-------|
 | <60>                                       | <15>      | <10>   | <10>  |
 |--------------------------------------------+-----------+--------+-------|
-| Kickoff                                    | Roland    | [[https://tedn.life/reveal-ase/006-000-kickoff-slides.html][Slides]] |       |
-| AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] |       |
-| No slides. Only code - Sandbox             | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] |       |
+| Kickoff                                    | Roland    | [[https://tedn.life/reveal-ase/006-000-kickoff-slides.html][Slides]] | [[https://youtu.be/T3k8lrTyC2k][Video]] |
+| AI PR Review: A (ServiceNow) Claude Plugin | Aditya    | [[https://tedn.life/reveal-ase/006-010-ai-pr-review.pdf][Slides]] | [[https://youtu.be/Ga8xHdWSHDs][Video]] |
+| No slides. Only code - Sandbox             | Roland    | [[https://tedn.life/reveal-ase/006-020-noslides-slides.html][Slides]] | [[https://youtu.be/Uv2AR9xfqLU][Video]] |
 | Wrap-up                                    | Roland    | [[https://tedn.life/reveal-ase/006-090-wrapup-slides.html][Slides]] |       |
 
 #+LATEX: \newpage
