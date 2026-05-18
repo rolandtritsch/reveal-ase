@@ -1,0 +1,80 @@
+#+TITLE: Wrap-up
+#+SUBTITLE: Augmented Software Engineering Meetup
+#+DATE: 04-Jun-2026
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: width: "80%"
+#+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
+#+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
+#+OPTIONS: toc:nil num:nil
+
+* What's new? What's happening?
+
+[[https://www.stateof.ai/][StateOf.Ai Edition]]
+
+** What's new? What's happening? (1/8)
+
+My take: GPT, Claude, Gemini, Grok, ..., DeepSeek, Qwen, ...
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-0.png" width="60%"/>
+
+** What's new? What's happening? (2/8)
+
+My take: MCP on the way up ... or out (agents, skills, ...)
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-1.png" width="60%"/>
+
+** What's new? What's happening? (3/8)
+
+My take: Langchain remains popular, but is now one of many 
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-2.png" width="60%"/>
+
+** What's new? What's happening? (4/8)
+
+My take: Sonnet remains popular, but is now one of many 
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-3.png" width="60%"/>
+
+** What's new? What's happening? (5/8)
+
+My take: Agentic-Coding is a thing (business, usage, ...)
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-4.png" width="60%"/>
+
+** What's new? What's happening? (6/8)
+
+My take: Coding, Media-Generation (Sora-Avatars), ...
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-5.png" width="60%"/>
+
+** What's new? What's happening? (7/8)
+
+My take: Claude-Code, Cursor, VSC/GHCP, ..., Windsurf, ...
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-6.png" width="60%"/>
+
+** What's new? What's happening? (8/8)
+
+My take: 5 will become true. Which 5?
+
+#+REVEAL_HTML: <img src="./images/stateof-ai-7.png" width="60%"/>
+
+* Thoughts/Feedback?
+
+- Now or later?!?!
+- More of the same?!?!
+- Another one like this?!?!
+
+* Ask/Next!
+
+- CFP!!!
+- Sponsors!!!
+- Co-Organizers!!!
+- Thu., Aug., 06th, 18:00!!!
+- Tables!!! Clean-Up!!!
+
+* Thank you!
+
+#+REVEAL_HTML: <img src="./images/abbey-capital-logo.webp" width="40%"/>

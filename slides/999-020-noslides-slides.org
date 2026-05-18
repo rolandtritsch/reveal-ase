@@ -1,0 +1,115 @@
+#+TITLE: No Slides/Just Code
+#+SUBTITLE: Augmented Software Engineering Meetup
+#+DATE: 11-Sep-2025
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: width: "80%"
+#+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
+#+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
+#+OPTIONS: toc:nil num:nil 
+
+* Demo: How to sandbox claude?
+
+- Rock and a hard-place. Safe YOLO-mode!
+- dev-containers to the rescue (based on claude-devcontainer; w/out fire-wall)
+- But ... you need more than one! Template the hell out of it!
+- Run it outside vscode!
+
+#+BEGIN_NOTES
+
+- Show warp terminal. Increase font. Switch to dark
+- Start ccc. Start container. Increase font. Switch to dark
+- Create 10 log files and delete them (YOLO; show /tmp)
+- Review devcontainer.json and Dockerfile (explain a section)
+- GH Copilot autocompletion still working
+- You need a lot of containers. Review src and Makefile
+- Show how to link a repo to the devcontainer
+- Show how to up/exec the devcontainer without ccc
+
+#+END_NOTES
+ 
+* Demo: Pegging AIs against each other (I)
+
+- Have coderabbit review the PR
+- Use =/pr-comments= to read and respond to comments
+- Automate the loop
+
+* Demo: Pegging AIs against each other (II)
+
+- Have claude write a spec
+- And make gemini review the spec
+- The gemini MCP server
+
+* Demo: Big-Prompt/Spec-Driven Development
+
+- Speckit by Github
+- Others ...
+
+* Demo: Big-Prompt/Small-Prompt
+
+- Be smart about it! Choose wisely/conciencly!
+- Build something (What) vs. Do something (How)
+- Vague vs. Specific
+- Product-Manager Mode vs. Pair-Programming Mode 
+
+* Demo: Screen-shotting the hell out of it
+
+- Who needs Loveable?
+- The tmp folder
+- Closing the loop with the playright MCP server
+
+* Demo: Using skills
+
+- The end of MCP? Cross-platform?
+
+* Demo: My vscode setup
+
+- Using devcontainers
+- Using GH copilot for completions
+- Using claude for everything else
+
+* Demo: My emacs setup
+
+- Org-Mode and use-package
+- Using claude (and gptel)
+- Un-hinged (no sandbox)
+
+* Demo: The 3 ways to use AI
+
+- Big-Prompt/SDD Mode
+- Pair-Programming Driver/Navigator Mode
+- (Unsupervised) Automation (Jobs, Workflows, Loops, ...)
+
+* Demo: AI meets Mad-Max (Gastown)
+
+- Let's drink the cool-aid (Steve Yegge style)
+- Task/Workflow Management with beads
+- Agent/Outcome Management with gastown
+
+#+BEGIN_NOTES
+
+- Show warp terminal. Increase font. Switch to dark
+- Show picture. Explain vision. "Kubernetes" for AI-fleets. Up vs. Done
+- Concepts (town, mayor, rigs, crews, ...). Confusing
+- WARNING: gastown is 100% vibe-coded with gastown. Waste time/money at your own risk
+- Show ailtir-town
+  - gt up
+  - gt mayor attach
+    - Plan mode
+    - Check the datastructures. There are lots of ids. They should be UUIDs. Are they?
+    - gastown is in the footer
+  - gt doctor
+  - gt --help
+  - gt rig list
+  - ps aux | grep claude
+  - bd list
+  - bd ready
+  - gt mail inbox
+- Work in/with the mayor. Start the implementation ... and BOOM
+  - bd list
+  - gt shutdown
+  - killall claude
+- Question: Do people know about similar platforms (gastown competitors)
+
+#+END_NOTES

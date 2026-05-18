@@ -1,0 +1,75 @@
+#+TITLE: Kickoff
+#+SUBTITLE: Augmented Software Engineering Meetup
+#+DATE: 04-Jun-2026
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: width: "80%"
+#+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
+#+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
+#+OPTIONS: toc:nil num:nil 
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/robot.webp" width="30%"/>
+
+* Welcome
+
+#+REVEAL_HTML: <img src="./images/augmented.png" width="40%"/>
+
+* Roland
+
+#+REVEAL_HTML: <figure><img src="./images/roland.png" width="70%"/><figcaption style="font-size: 0.5em;"><a href="https://tedn.life">Source: https://tedn.life</a></figcaption></figure>
+
+* Roland
+
+- (Fractional) CTO, VP Engineering, ...
+- Specialized in early (remote-first) start-ups
+- The Extreme Digital Nomad, The Augmented Software Engineer
+- Ex-IONA, Ex-Gilt, Ex-Nitro, Ex-Community, ...
+- SaaS, Distributed-Systems, Event-based Systems, ...
+- Functional Programing (Haskell, Scala, Elixir/Erlang, ...)
+
+* Thank you!
+
+#+REVEAL_HTML: <img src="./images/baseline.png" width="40%"/>
+#+REVEAL_HTML: <br>
+#+REVEAL_HTML: <img src="./images/abbey-capital-logo.webp" width="40%"/>
+
+* Why?
+
+#+REVEAL_HTML: <figure><img src="./images/agents-2026-II.png" width="70%"/><figcaption style="font-size: 0.5em;"><a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer">Source: https://sourcegraph.com/blog/revenge-of-the-junior-developer</a></figcaption></figure>
+
+* What? How?
+
+- Cadence: Every 2 month
+- Next one in August. Scala3-Edition.
+- Call-for-Sponsors (!!!)
+- Call-for-Papers/Presentations (!!!)
+  - Tools, Products, Platforms, ...
+  - Best Practices, Experience, ...
+  - Processes, Workflows, ...
+
+* Logistics
+
+#+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
+#+REVEAL_HTML: <div style="width: 70%;">
+- Fire exit, restroom, no phones, no food (but drinks :)) ...
+- Slides/Videos will be available for download
+- **!!! Engagement !!!** (taking it from good to great)
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><img src="./images/robot.webp" width="80%"/></div>
+#+REVEAL_HTML: </div>
+
+* Agenda/Today
+
+- 18:00 - Opening doors (Pizza & Beers) - All
+- 18:30 - Kickoff - Roland
+- 18:45 - The Augmented Software Organisation: An opinionated glympse into the future - Joe
+- 19:30 - Agent-Fleets: From Gastown to Symphony and Paperclip - Roland
+- 20:15 - Wrap-up - Roland
+- 20:20 - More beers, more mingling - All
+
+* Questions (so far)?
+
+#+REVEAL_HTML: <img src="./images/questions.webp" width="60%"/>
