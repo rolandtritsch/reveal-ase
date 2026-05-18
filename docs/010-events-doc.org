@@ -2,7 +2,7 @@
 #+SUBTITLE: Augmented Software-Engineer Meetup
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
-#+DATE: 01-Jan-2027
+#+DATE: {{{time(%Y-%m-%d %H:%M:%S)}}}
 #+OPTIONS: toc:1
 #+LATEX_CLASS_OPTIONS: [12pt,landscape]
 #+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,landscape]{geometry}

@@ -6,7 +6,7 @@ DOCS_ORG      := $(wildcard docs/*-doc.org)
 PUBLIC_SLIDES := $(patsubst slides/%.org,public/%.pdf,$(SLIDES_ORG))
 PUBLIC_DOCS   := $(patsubst docs/%.org,public/%.pdf,$(DOCS_ORG))
 
-.PHONY: help clean publish verify-slides
+.PHONY: help clean clean-full publish
 
 help: ## Show help for all targets
 	@echo "Available targets:"
@@ -14,12 +14,12 @@ help: ## Show help for all targets
 
 clean: ## Remove generated files from public/
 	@echo "Cleaning ./public ..."
-	@rm -f public/*-slides.html public/*-slides.pdf public/*-slides_with-notes.pdf public/*-doc.pdf
+	@rm -f public/*-slides.html public/*-slides.pdf public/*-slides_with-notes.pdf public/*-doc.pdf public/*-doc.tex
 	@echo "Cleaned"
 
 clean-full: clean ## Remove all generated HTML/PDF/TeX artifacts (excludes pdfs/)
 	@echo "Cleaning all artifacts ..."
-	@find . -path ./pdfs -prune -o \( -name '*.html' -o -name '*.pdf' -o -name '*.tex' \) -type f -print | xargs -r rm -f
+	@find . \( -path ./public -o -path ./pdfs \) -prune -o \( -name '*.html' -o -name '*.pdf' -o -name '*.tex' \) -type f -print | xargs -r rm -f
 	@echo "Cleaned"
 
 public/%-slides.pdf: slides/%-slides.org
@@ -32,8 +32,3 @@ publish: $(PUBLIC_SLIDES) $(PUBLIC_DOCS) ## Build and publish all slides and doc
 	@mkdir -p ./public
 	@ln -sfn ../images ./public/images
 	@cp ./pdfs/*.pdf ./public
-
-verify-slides: ## Screenshot generated slide PDFs into tmp/ for visual verification
-	@echo "Screenshotting slide PDFs ..."
-	@node ./scripts/verify-slides.cjs
-	@echo "Screenshots saved to tmp/"
