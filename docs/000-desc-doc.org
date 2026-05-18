@@ -21,4 +21,4 @@ for rapid, effective learning on the topic.
 * Links
 
 - [[https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it][The Augmented Software Engineer - What is it?]]
-- [[https://tedn.life/reveal-ase/010-events-doc.pdf][Past Events]]
+- [[https://tedn.life/reveal-ase-meetup/010-events-doc.pdf][Past Events]]
