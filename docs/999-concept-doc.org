@@ -1,0 +1,46 @@
+#+TITLE: Concept
+#+SUBTITLE: Augmented Software-Engineer Meetup
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+DATE: {{{time(%Y-%m-%d %H:%M:%S)}}}
+#+OPTIONS: toc:1
+#+LATEX_CLASS_OPTIONS: [12pt,landscape]
+#+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,landscape]{geometry}
+
+#+LATEX: \newpage
+* Motivation/Why
+
+- AI is coming. Let's get ready. Together
+- We need to learn how to build AI-/agentic-systems
+- And/But we (also) need to learn how to use AI/agents to build these systems
+- This meet up is about the later (not the former)
+
+#+LATEX: \newpage
+* Content/What
+
+- 2025 was all about individuals getting better at performing certain tasks (using cursor, windsurf, claude, codex, ...)
+- The working assumption was that the AI will augment the engineer (hence the name)
+- But things are moving fast (and faster than I thought)
+- In/For 2026 the adoption has moved on (needs to move on) from the individual/task level to the org/process level
+- Means (by now) the name of the meetup is actually a little bit misleading (sooner or later we need to fix this)
+- We want to year about tools/tooling, processes, best-practices (the good, bad and the ugly)
+
+#+LATEX: \newpage
+* Execution/How
+
+- We are meeting every two month. 18:00 to 20:30 (not longer). We are doing two presentations (45 mins/each)
+- The first presentation is always a guest speaker
+- The second presentation is always Roland doing a no-slides/only-code session, because ...
+  - This way the first presentation can run over and nobody (besides Roland) gets hurt
+  - People have expressed an interest in more hands-on demos and less slides (and Roland knows how to do that)
+  - Roland likes the sound of his own voice
+- For every meetup we need a sponsor (location and pizza/beer for 50-80 people (EUR 600-1000))
+
+* Experience/Goal
+
+We want people to walk away from a/the meetup and say ...
+
+- This was worth-while my time. I have learned something (good value)
+- This was nice. I had a good-time (good experience)
+
+... and that means, I will tell other people about it and I will come/attend again.
