@@ -4,8 +4,8 @@
 #+EMAIL: roland@tritsch.email
 #+DATE: {{{time(%Y-%m-%d %H:%M:%S)}}}
 #+OPTIONS: toc:1
-#+LATEX_CLASS_OPTIONS: [12pt,landscape]
-#+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,landscape]{geometry}
+#+LATEX_CLASS_OPTIONS: [12pt,portrait]
+#+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,portrait]{geometry}
 
 #+LATEX: \newpage
 * Motivation/Why
@@ -36,6 +36,7 @@
   - Roland likes the sound of his own voice
 - For every meetup we need a sponsor (location and pizza/beer for 50-80 people (EUR 600-1000))
 
+#+LATEX: \newpage
 * Experience/Goal
 
 We want people to walk away from a/the meetup and say ...
