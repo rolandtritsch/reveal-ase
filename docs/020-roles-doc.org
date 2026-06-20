@@ -1,0 +1,77 @@
+#+TITLE: Roles
+#+SUBTITLE: Augmented Software-Engineer Meetup
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+DATE: {{{time(%Y-%m-%d %H:%M:%S)}}}
+#+OPTIONS: toc:nil
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[left=4cm,right=4cm,top=2cm,bottom=2cm]{geometry}
+
+
+* Things to do
+
+To make a meetup happen a lot of things need to happen ...
+
+** Before the event ...
+
+- You need to find a venue and a sponsor (for the pizza and the beer; EUR 600-1000)
+- You need to find speakers
+- You need to promote the event to make sure enough people register (accounting for 25-50% no-shows)
+- You need to work with the speakers to make sure the presentations complement each other and are up-to-scratch (content, style, quality, quantity (not too short/long), ...). You need to make sure the presenters have an HDMI-adapter
+- You need to coordinate with the sponsors/venue-provider to make sure the venue is ready (enough space, WIFI, HDMI-connector/-cable, extra projector/light-bulb, enough food/beer, ...)
+
+** On the day ...
+
+- You need to be there an hour before the event
+- You need to test the projector/WIFI (with/for the presenters)
+- You need to help to set up for the event (chairs, food, drinks, ...)
+- You need to welcome the attendees (and sometimes organize to let people into the building)
+- You need to MC/run the event (maintain pace, without rushing or pushing/pulling too much)
+- You need to record the event (audio/video)
+
+** After the event ...
+
+- You need to thank the sponsors, speakers and attendees (again)
+- You need to collect the presentations from the speakers (in PDF format) and need to update the past-events doc with it and then point the attendees to the presentations 
+- You need to cut the videos and upload them to youtube and need to update the past-events doc with it and then point the attendees to the videos
+   
+And then you need to start all over again.
+
+* Roles
+
+** Meetup Planer
+
+- You are very well connected You are an excellent networker. You know a lot of people 
+= You will find the next venue and the next sponsor
+- You will work with the Meetup Presenter Preparer to determine what the next meetup is all about
+= You will put together the agenda and will then send the invite for the event
+= You will then do all of the PR for the event (and make sure the sponsors are getting good milage out of the event)
+= You will work with venue to make sure the venue is ready for the event
+= On the day of the event you will work with the Meetup Executor (MC) and help to make sure that the attendees have a good experience
+- After the event you will work with the Meetup Presenter Preparer and the Meetup Videographer and send a/the wrap-up communication (with the presentations and the videos) to the attendees and the sponsors
+
+** Meetup Presenter Preparer
+
+- You are very well connected You are an excellent networker. You know a lot of people 
+- You are a very good presenter. And you understand what needs to be talked about and how we need to talk about it
+- You recognize a good speaker/presentation when you see one
+= You will find the next speaker(s). You will build and maintain a backlog of speakers
+- You will work with the Meetup Planer to determine what the next meetup is all about
+- You will make sure the speakers are ready on the day of the meetup. You make sure the presentations are of good quality
+= On the day of the event you will work with the Meetup Executor (MC) and help to make sure that the speakers have a good experience
+- You will collect the presentations from the speakers after the event
+
+** Meetup Executor (MC)
+
+- You are an excellent communicator
+- You own the day of the event
+- The Meetup Planer and the Meetup Presenter Preparer will help you you to make sure that the sponsors and the speakers and the attendees are getting a good ROI on the time and money they spend on the event
+- You are the host. You will make the attendees feel welcome. You kick-off and wrap-up the event. You introduce the speakers and the presentations
+- You will moderate the Q&A sessions. You will drive the event. Making sure that the pace is right (not too fast and not too slow)
+
+** Meetup Videographer
+
+- You are a very good photographer/videographer
+- You record all of the presentations. You make a lot of pictures
+- After the event you will cut the videos and the reels and upload them to youtube. You will also upload the pictures to the meetup event page
+- You will then share the content with the Meetup Planner
