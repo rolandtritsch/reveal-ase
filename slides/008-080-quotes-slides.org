@@ -1,5 +1,5 @@
-#+TITLE: 13 Engineers / 39 Quotes
-#+SUBTITLE: Where AI-Assisted Software Engineering Is Going
+#+TITLE: Q2 Quotes
+#+SUBTITLE: The Augmented Software Engineer
 #+DATE: 23-Jul-2026
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
@@ -17,7 +17,7 @@
 - Respected for shipped software or engineering practice
 - Influencing how practitioners work *now*
 - Three attributable, topical statements in the window
-- A point of view, not just a product announcement
+- Repeated or highlighted by an independent source
 
 #+BEGIN_NOTES
 
@@ -33,6 +33,26 @@ are defining today's vocabulary and practices.
 
 Quotes are deliberately short excerpts. Follow the source links in the notes
 for context and caveats.
+
+The second-source rule is a relevance filter, not a truth guarantee. A quote
+must have travelled beyond the speaker's own channel: a journalist, interviewer,
+newsletter writer, researcher, or practitioner must have selected and repeated
+the statement or its distinctive formulation.
+
+Independent-selection audit (speaker → second source):
+- Yegge → https://steveyegge.spicytakes.org/
+- Torvalds → https://www.techradar.com/pro/ai-is-a-great-tool-but-its-a-tool-linus-torvalds-lays-out-his-complex-love-hate-relationship-with-ai
+- Fowler → https://www.sysdesai.com/news/BV2pt2PnPGxh
+- Beck → https://www.aiclipped.com/
+- Willison → https://viqus.ai/news/simon-willison-sees-ai-agents-redefining-software-
+- Majors → https://refactoring.fm/p/validation-async-vs-sync-and-weekly
+- Osmani → https://www.thatwastheweek.com/p/who-done-it-can-ai-kill-us
+- Ronacher → https://dx13.co.uk/articles/2026/07/09/link-the-coming-loop-armin-ronachers-thoughts-and-writings/
+- Cherny → https://fortune.com/2026/06/11/anthropic-claude-boris-cherny-doesnt-write-code-by-hand-anymore/
+- Böckeler → https://www.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/
+- Huntley → https://www.linkedin.com/posts/climateadvocateaienthusiast_software-development-is-dead-geoffrey-activity-7475596080911646720-5Hog
+- Lopopolo → https://talksintel.ai/ai-ml/conferences/aie-eu-2026/harness-engineering-how-to-build-software-when-humans-steer/
+- Karpathy → https://app.stationx.net/articles/agentic-engineering
 
 #+END_NOTES
 
@@ -422,11 +442,11 @@ interfaces still help humans debug and understand what agents are doing.
 #+REVEAL_HTML: <div style="font-size: 0.76em;">
 
 #+BEGIN_QUOTE
-“Being a coder and being a software engineer are different.”
+“Software development is dead because anyone can be a software developer now.”
 
-“If you are curious, you will have a job.”
+“You’re either a coder or a software engineer.”
 
-“AI is more like a musical instrument than just a tool.”
+“Tokens are cheaper than humans.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
@@ -445,8 +465,13 @@ Miami,” published 26 June 2026.
 https://ghuntley.com/miami/
 
 Huntley distinguishes abundant code production from software engineering:
-designing reliable systems, feedback, safety, and operations. His instrument
-analogy makes AI fluency a practised skill rather than a product entitlement.
+designing reliable systems, feedback, safety, and operations.
+
+Independent selection: Hendrik Krack clipped and transcribed these statements
+from Huntley's Miami talk under the headline “Software development is dead.”
+These are the lines that travelled, rather than the tidier aphorisms in
+Huntley's own written summary.
+https://www.linkedin.com/posts/climateadvocateaienthusiast_software-development-is-dead-geoffrey-activity-7475596080911646720-5Hog
 
 #+END_NOTES
 
@@ -455,11 +480,11 @@ analogy makes AI fluency a practised skill rather than a product entitlement.
 #+REVEAL_HTML: <div style="font-size: 0.76em;">
 
 #+BEGIN_QUOTE
-“Human time is the fundamentally scarce resource that we have.”
+“Code is free.”
 
-“The production of code is very, very cheap now.”
+“Agents aren’t hard; the harness is hard.”
 
-“Harness engineering is making context ... legible.”
+“Every time I have to type continue ... is a failure of the harness.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
@@ -473,14 +498,17 @@ that shipped roughly a million lines with no manually written code. His work
 made “harness engineering” a central term for the context, constraints, tools,
 tests, and feedback that enable autonomous coding agents.
 
-All excerpts: Ryan Lopopolo, “Harness Engineering: How to Build Software When
-Humans Steer, Agents Execute,” published 19 June 2026.
+Original talks and interviews: Ryan Lopopolo, “Harness Engineering: How to Build
+Software When Humans Steer, Agents Execute,” published 19 June 2026.
 https://www.youtube.com/watch?v=c8bE0cj7vHY
 
-The full third statement is: “Harness engineering is making context around
-what it means to do a good job legible and then just in time surface[d] to the
-agent.” Lopopolo's thesis is not merely that models write code; it is that the
-production system around them determines useful, repeatable autonomy.
+Independent selection: Marcel Schmitz quoted “Code is free”; a separate harness
+recap selected “Agents aren't hard; the harness is hard”; TalksIntel quoted the
+“type continue” test. The full third line ends: “... to provide enough context
+around what it means to continue to completion.”
+https://marcelschmitz.com/posts/the-senior-engineers-job-just-changed/
+https://wxa-blog.x6o4.com/posts/2026-05-07-169/
+https://talksintel.ai/ai-ml/conferences/aie-eu-2026/harness-engineering-how-to-build-software-when-humans-steer/
 
 #+END_NOTES
 
@@ -515,6 +543,12 @@ Karpathy's distinction is useful: vibe coding broadens who can make software;
 agentic engineering uses agents without surrendering security, reliability,
 or professional responsibility. Capability raises the ceiling only when the
 operator preserves the quality bar.
+
+Independent selection: StationX directly quoted the quality-bar and continuing
+responsibility passage; CO/AI independently made the same contrast the centre
+of its write-up.
+https://app.stationx.net/articles/agentic-engineering
+https://getcoai.com/video/andrej-karpathy-video-2026/
 
 #+END_NOTES
 
