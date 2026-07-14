@@ -60,11 +60,11 @@ Independent-selection audit (speaker → second source):
 
 #+REVEAL_HTML: <div style="font-size: 0.82em; text-align: left;">
 
-- *1. Steve Yegge* -- agent orchestration and AI literacy
-- *2. Linus Torvalds* -- durable software and accountability
-- *3. Martin Fowler* -- software design and harness engineering
-- *4. Kent Beck* -- TDD, XP, and outcome-oriented development
-- *5. Simon Willison* -- empirical agentic engineering
+1. *Steve Yegge* -- agent orchestration and AI literacy
+1. *Linus Torvalds* -- durable software and accountability
+1. *Martin Fowler* -- software design and harness engineering
+1. *Kent Beck* -- TDD, XP, and outcome-oriented development
+1. *Simon Willison* -- empirical agentic engineering
 
 #+REVEAL_HTML: </div>
 
@@ -72,11 +72,11 @@ Independent-selection audit (speaker → second source):
 
 #+REVEAL_HTML: <div style="font-size: 0.82em; text-align: left;">
 
-- *6. Charity Majors* -- production, observability, and ownership
-- *7. Addy Osmani* -- codifying agentic-engineering practice
-- *8. Armin Ronacher* -- influential tools and hands-on scepticism
-- *9. Boris Cherny* -- creator and head of Claude Code
-- *10. Birgitta Böckeler* -- AI-first delivery and feedback harnesses
+1. [@6] *Charity Majors* -- production, observability, and ownership
+1. *Addy Osmani* -- codifying agentic-engineering practice
+1. *Armin Ronacher* -- influential tools and hands-on scepticism
+1. *Boris Cherny* -- creator and head of Claude Code
+1. *Birgitta Böckeler* -- AI-first delivery and feedback harnesses
 
 #+REVEAL_HTML: </div>
 
@@ -84,9 +84,9 @@ Independent-selection audit (speaker → second source):
 
 #+REVEAL_HTML: <div style="font-size: 0.82em; text-align: left;">
 
-- *11. Geoffrey Huntley* -- inventor of the Ralph Wiggum Loop
-- *12. Ryan Lopopolo* -- agent-first development and harness engineering
-- *13. Andrej Karpathy* -- AI researcher and agentic-engineering educator
+1. [@11] *Geoffrey Huntley* -- inventor of the Ralph Wiggum Loop
+1. *Ryan Lopopolo* -- agent-first development and harness engineering
+1. *Andrej Karpathy* -- AI researcher and agentic-engineering educator
 
 #+REVEAL_HTML: </div>
 
@@ -557,10 +557,10 @@ https://getcoai.com/video/andrej-karpathy-video-2026/
 #+REVEAL_HTML: <div style="font-size: 0.76em; text-align: left;">
 
 1. *Code becomes abundant.* Intent and accepted outcomes become scarce.
-2. *The bottleneck migrates.* From writing to review, verification, and judgement.
-3. *The harness matters.* Context, tools, feedback, constraints, and loops compound capability.
-4. *Expertise amplifies.* You cannot safely delegate beyond what you can evaluate.
-5. *Responsibility remains human.* Faster generation raises the cost of weak engineering discipline.
+1. *The bottleneck migrates.* From writing to review, verification, and judgement.
+1. *The harness matters.* Context, tools, feedback, constraints, and loops compound capability.
+1. *Expertise amplifies.* You cannot safely delegate beyond what you can evaluate.
+1. *Responsibility remains human.* Faster generation raises the cost of weak engineering discipline.
 
 #+REVEAL_HTML: </div>
 
