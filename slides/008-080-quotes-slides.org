@@ -10,81 +10,41 @@
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
 #+OPTIONS: toc:nil num:nil
 
-* Who gets on the list?
+* The quote-the-quote filter
 
 14 Apr. -- 14 Jul. 2026
 
-- Respected for shipped software or engineering practice
-- Influencing how practitioners work *now*
-- Three attributable, topical statements in the window
-- Repeated or highlighted by an independent source
+- The person said it in the three-month window
+- An independent author reproduced the words verbatim
+- Paraphrases, summaries, aggregators, and self-quotation do not count
+- Three qualifying quotations or the person leaves the list
 
 #+BEGIN_NOTES
 
-This is not an all-time fame ranking. It is a current influence list filtered
-through one demanding question: did the person make at least three attributable
-statements in the last three months that illuminate where AI-assisted software
-engineering is going?
+This edition applies a deliberately severe relevance test. A speaker's own post
+proves that they said something; it does not prove that the statement travelled.
+Every quotation shown here was selected and reproduced by somebody else.
 
-That excludes obvious lifetime candidates such as Jeff Dean for this edition:
-high influence, but not three recent, attributable statements on this specific
-topic. It includes several people who are less famous outside engineering but
-are defining today's vocabulary and practices.
+An independent interview, edited transcript, news report, or quotation page can
+qualify several excerpts when it actually prints the speaker's words. A page
+that merely links to, paraphrases, or summarises the original does not qualify.
 
-Quotes are deliberately short excerpts. Follow the source links in the notes
-for context and caveats.
-
-The second-source rule is a relevance filter, not a truth guarantee. A quote
-must have travelled beyond the speaker's own channel: a journalist, interviewer,
-newsletter writer, researcher, or practitioner must have selected and repeated
-the statement or its distinctive formulation.
-
-Independent-selection audit (speaker → second source):
-- Yegge → https://steveyegge.spicytakes.org/
-- Torvalds → https://www.techradar.com/pro/ai-is-a-great-tool-but-its-a-tool-linus-torvalds-lays-out-his-complex-love-hate-relationship-with-ai
-- Fowler → https://www.sysdesai.com/news/BV2pt2PnPGxh
-- Beck → https://www.aiclipped.com/
-- Willison → https://viqus.ai/news/simon-willison-sees-ai-agents-redefining-software-
-- Majors → https://refactoring.fm/p/validation-async-vs-sync-and-weekly
-- Osmani → https://www.thatwastheweek.com/p/who-done-it-can-ai-kill-us
-- Ronacher → https://dx13.co.uk/articles/2026/07/09/link-the-coming-loop-armin-ronachers-thoughts-and-writings/
-- Cherny → https://fortune.com/2026/06/11/anthropic-claude-boris-cherny-doesnt-write-code-by-hand-anymore/
-- Böckeler → https://www.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/
-- Huntley → https://www.linkedin.com/posts/climateadvocateaienthusiast_software-development-is-dead-geoffrey-activity-7475596080911646720-5Hog
-- Lopopolo → https://talksintel.ai/ai-ml/conferences/aie-eu-2026/harness-engineering-how-to-build-software-when-humans-steer/
-- Karpathy → https://app.stationx.net/articles/agentic-engineering
+Six previous candidates were removed because fewer than three displayed lines
+survived this exact-text test: Steve Yegge, Martin Fowler, Kent Beck, Simon
+Willison, Addy Osmani, and Armin Ronacher. This is an evidence result, not a
+judgement that their work is unimportant.
 
 #+END_NOTES
 
-* The 13 (1/3)
+* The 7
 
 #+REVEAL_HTML: <div style="font-size: 0.82em; text-align: left;">
 
-1. *Steve Yegge* -- agent orchestration and AI literacy
 1. *Linus Torvalds* -- durable software and accountability
-1. *Martin Fowler* -- software design and harness engineering
-1. *Kent Beck* -- TDD, XP, and outcome-oriented development
-1. *Simon Willison* -- empirical agentic engineering
-
-#+REVEAL_HTML: </div>
-
-* The 13 (2/3)
-
-#+REVEAL_HTML: <div style="font-size: 0.82em; text-align: left;">
-
-1. [@6] *Charity Majors* -- production, observability, and ownership
-1. *Addy Osmani* -- codifying agentic-engineering practice
-1. *Armin Ronacher* -- influential tools and hands-on scepticism
+1. *Charity Majors* -- production, observability, and ownership
 1. *Boris Cherny* -- creator and head of Claude Code
 1. *Birgitta Böckeler* -- AI-first delivery and feedback harnesses
-
-#+REVEAL_HTML: </div>
-
-* The 13 (3/3)
-
-#+REVEAL_HTML: <div style="font-size: 0.82em; text-align: left;">
-
-1. [@11] *Geoffrey Huntley* -- inventor of the Ralph Wiggum Loop
+1. *Geoffrey Huntley* -- inventor of the Ralph Wiggum Loop
 1. *Ryan Lopopolo* -- agent-first development and harness engineering
 1. *Andrej Karpathy* -- AI researcher and agentic-engineering educator
 
@@ -92,65 +52,30 @@ Independent-selection audit (speaker → second source):
 
 #+BEGIN_NOTES
 
-The ordering balances durable reputation, reach, direct technical contribution,
-and present influence over AI-assisted engineering. It is editorial, not a
-scientific league table.
+The ordering balances durable reputation, direct technical contribution, and
+present influence. It is editorial, not a scientific league table.
 
-Yegge, Torvalds, Fowler, and Beck bring decades of field-shaping influence.
-Willison, Majors, Osmani, and Ronacher connect the shift to current production
-practice. Cherny directly shapes a category-leading agent. Böckeler is one of
-the clearest practitioners translating agent capability into delivery-system
-design.
+The list is shorter than the original thirteen because evidence quality now
+determines membership. Each following slide names the independent publication
+that selected the quotation and supplies the exact source URL.
 
 #+END_NOTES
 
-* 1. Steve Yegge
+* 1. Linus Torvalds
 
-#+REVEAL_HTML: <div style="font-size: 0.80em;">
-
-#+BEGIN_QUOTE
-“Your work isn’t hard enough right now.”
-
-“Everyone has a discernment horizon.”
-
-“Superhuman means unverifiable.”
-#+END_QUOTE
-
-#+REVEAL_HTML: </div>
-
-*Signal:* Capability is useless beyond our ability to challenge and judge it.
-
-#+BEGIN_NOTES
-
-Why him: influential engineer-writer from Amazon and Google; creator of Beads
-and Gas Town; currently one of the loudest advocates for multi-agent software
-development and AI literacy.
-
-All three excerpts: Steve Yegge, “The Flat Curve Society,” 19 June 2026.
-https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b
-
-Context: Yegge distinguishes a demand horizon--the hardest problem a user can
-pose--from a discernment horizon--the hardest answer a user can judge. This is
-an argument for personal evals and against treating access to a smarter model
-as an automatic productivity gain.
-
-#+END_NOTES
-
-* 2. Linus Torvalds
-
-#+REVEAL_HTML: <div style="font-size: 0.82em;">
+#+REVEAL_HTML: <div style="font-size: 0.78em;">
 
 #+BEGIN_QUOTE
 “AI is a great tool, but it’s a tool.”
 
-“These days, I’m figuring out AI tools are good too.”
+“AI is changing programming, but it’s not changing the fundamentals.”
 
-“AI is not changing programming.”
+“You need to understand ... the end result too.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
 
-*Signal:* This is a powerful abstraction shift, not the abolition of engineering.
+*Signal:* Powerful abstraction shift; unchanged engineering responsibility.
 
 #+BEGIN_NOTES
 
@@ -158,219 +83,51 @@ Why him: creator and long-term maintainer of Linux, creator of Git, and the
 most influential living example of accountable, large-scale open-source
 engineering.
 
-All three excerpts are from Torvalds's Open Source Summit North America
-conversation on 20 May 2026, reported 21 May:
+Independent quote source: Mike Moore, TechRadar, 21 May 2026. The report
+reproduces all three statements from Torvalds's Open Source Summit North
+America conversation. The full third line is: “You need to understand not just
+your prompts, but you need to understand the end result too, because that's the
+only way you can maintain it long term.”
 https://www.techradar.com/pro/ai-is-a-great-tool-but-its-a-tool-linus-torvalds-lays-out-his-complex-love-hate-relationship-with-ai
 
-The wider context is nuanced: he compares AI with assemblers and compilers as
-productivity tools, while rejecting claims that generated code removes the
-human engineering role. In separate May comments, he demanded that AI-assisted
-bug reports add a patch or other human value rather than flooding maintainers.
-
 #+END_NOTES
 
-* 3. Martin Fowler
-
-#+REVEAL_HTML: <div style="font-size: 0.82em;">
-
-#+BEGIN_QUOTE
-“Attention to harnesses pays off.”
-
-“Pick the right model for the job.”
-
-“A strategy that will cope with ... unpredictable changes.”
-#+END_QUOTE
-
-#+REVEAL_HTML: </div>
-
-*Signal:* Optimise the system around changing models, not for one model.
-
-#+BEGIN_NOTES
-
-Why him: author of foundational work on refactoring, architecture, patterns,
-continuous delivery, and agile practice; a durable translator of emerging
-engineering practice into useful concepts.
-
-All excerpts: Martin Fowler, “Fragments: July 13,” 13 July 2026.
-https://www.martinfowler.com/fragments/2026-07-13.html
-
-Fowler reports that harness engineering went from unknown to a full session
-between two 2026 software-development retreats. He highlights context focus,
-stronger validation, model routing, cost, self-hosting, and model sovereignty.
-
-#+END_NOTES
-
-* 4. Kent Beck
-
-#+REVEAL_HTML: <div style="font-size: 0.84em;">
-
-#+BEGIN_QUOTE
-“Nobody wants agents.”
-
-“I have a system and I want it to change.”
-
-“Outcome-orientation is the thing.”
-#+END_QUOTE
-
-#+REVEAL_HTML: </div>
-
-*Signal:* Agent count and orchestration are implementation details; outcomes win.
-
-#+BEGIN_NOTES
-
-Why him: creator of Extreme Programming and TDD, co-creator of JUnit, and a
-career-long influence on feedback, design, and human-scale software practice.
-
-All excerpts: Kent Beck, “Genie Lessons: Nobody Wants Agents,” 23 April 2026.
-https://newsletter.kentbeck.com/p/genie-lessons-nobody-wants-agents
-
-Beck describes using a coordinator, implementer, and verifier, then realising
-that he was carrying coordination state the system should hold. Multi-agent is
-a feature; the goal is a trustworthy change to the system.
-
-#+END_NOTES
-
-* 5. Simon Willison
-
-#+REVEAL_HTML: <div style="font-size: 0.78em;">
-
-#+BEGIN_QUOTE
-“These things are amplifiers of existing experience.”
-
-“Producing software is a ferociously difficult thing to do.”
-
-“I want to build higher quality stuff faster.”
-#+END_QUOTE
-
-#+REVEAL_HTML: </div>
-
-*Signal:* Agentic engineering raises leverage and responsibility together.
-
-#+BEGIN_NOTES
-
-Why him: co-creator of Django, creator of Datasette and LLM, and perhaps the
-most consistently empirical independent chronicler of LLM and coding-agent
-behaviour.
-
-All excerpts: Simon Willison, “Vibe coding and agentic engineering are getting
-closer than I’d like,” 6 May 2026.
-https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/
-
-Willison says he reviews fewer individual lines as agents become reliable, but
-leans on 25 years of engineering experience, automated tests, documentation,
-and production judgement. The target is not lower-quality software faster.
-
-#+END_NOTES
-
-* 6. Charity Majors
-
-#+REVEAL_HTML: <div style="font-size: 0.78em;">
-
-#+BEGIN_QUOTE
-“Code production ... became effectively free and instant.”
-
-“The real product ... is shared understanding.”
-
-“Code stops being an asset and starts acting as a cache.”
-#+END_QUOTE
-
-#+REVEAL_HTML: </div>
-
-*Signal:* Preserve intent, behaviour, and understanding--not every implementation.
-
-#+BEGIN_NOTES
-
-Why her: co-founder and CTO of Honeycomb, co-author of Observability
-Engineering, and a highly influential voice on production ownership and
-socio-technical engineering systems.
-
-All excerpts: Charity Majors, “AI demands more engineering discipline. Not
-less,” 15 June 2026.
-https://charity.wtf/p/ai-demands-more-engineering-discipline
-
-Majors argues that cheap regeneration relocates rigor. The durable assets must
-be explicit intent, behavioural commitments, evaluation, observability, and
-team understanding. She is describing a possible direction, not claiming that
-today's tools can safely regenerate every production system.
-
-#+END_NOTES
-
-* 7. Addy Osmani
+* 2. Charity Majors
 
 #+REVEAL_HTML: <div style="font-size: 0.76em;">
 
 #+BEGIN_QUOTE
-“A decent model with a great harness beats a great model with a bad harness.”
+“The economics of code production were turned upside down.”
 
-“Verification will always be the bottleneck.”
+“It became effectively free and instant.”
 
-“AI gets good at anything with an answer key.”
+“Disposable and regenerable, practically overnight.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
 
-*Signal:* Competitive advantage moves from model access to harness and judgement.
+*Signal:* When code gets cheap, intent and discipline become the assets.
 
 #+BEGIN_NOTES
 
-Why him: long-time Google/Chrome engineering leader and author whose current
-work is rapidly codifying agentic engineering: specs, skills, harnesses, loops,
-autonomy, review, and careers.
+Why her: co-founder and CTO of Honeycomb, co-author of Observability
+Engineering, and an influential voice on production ownership and
+socio-technical engineering systems.
 
-Sources:
-- “Agent Harness Engineering,” 19 April 2026:
-  https://addyosmani.com/blog/agent-harness-engineering/
-- “Agentic Autonomy Levels,” 2 July 2026:
-  https://addyosmani.com/blog/agentic-autonomy-levels/
-- “The Agent-Era Career,” 6 July 2026:
-  https://addyosmani.com/blog/career-advice-age-of-agents/
+Independent quote source: Simon Willison, 17 June 2026. Willison selected and
+reprinted the complete paragraph from Majors's “AI demands more engineering
+discipline. Not less”; the three displayed excerpts are verbatim parts of that
+independently reproduced passage.
+https://simonwillison.net/2026/Jun/17/charity-majors/
 
-The three claims connect: harness design extracts capability, verification
-limits safe autonomy, and career value moves toward choosing what to build and
-judging whether it is good.
+The quotation describes a direction and an economic inversion, not proof that
+every production system can already be regenerated safely.
 
 #+END_NOTES
 
-* 8. Armin Ronacher
+* 3. Boris Cherny
 
-#+REVEAL_HTML: <div style="font-size: 0.78em;">
-
-#+BEGIN_QUOTE
-“I want to understand the code I ship.”
-
-“Tool schemas are not neutral.”
-
-“Open Source in a post-AI world is under a strange new pressure.”
-#+END_QUOTE
-
-#+REVEAL_HTML: </div>
-
-*Signal:* Machine participation changes codebases, tools, and communities.
-
-#+BEGIN_NOTES
-
-Why him: creator of Flask, Jinja, Click, Rye, and a central contributor to Pi;
-an influential tool-builder combining heavy agent use with unusually candid
-technical and social criticism.
-
-Sources:
-- “The Coming Loop,” 23 June 2026:
-  https://lucumr.pocoo.org/2026/6/23/the-coming-loop/
-- “Better Models: Worse Tools,” 4 July 2026:
-  https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/
-- “Building Pi With Pi,” 24 May 2026:
-  https://lucumr.pocoo.org/2026/5/24/pi-oss/
-
-Ronacher sees loops as the direction of travel but insists on comprehension for
-code he deeply cares about. He also demonstrates that model capability is
-coupled to tool schemas, post-training, and harness details, while cheap output
-creates real coordination costs for open-source maintainers.
-
-#+END_NOTES
-
-* 9. Boris Cherny
-
-#+REVEAL_HTML: <div style="font-size: 0.82em;">
+#+REVEAL_HTML: <div style="font-size: 0.80em;">
 
 #+BEGIN_QUOTE
 “Find the bottleneck, solve the bottleneck.”
@@ -382,40 +139,39 @@ creates real coordination costs for open-source maintainers.
 
 #+REVEAL_HTML: </div>
 
-*Signal:* Code generation is solved only by moving the bottleneck elsewhere.
+*Signal:* Automation does not remove bottlenecks; it moves them.
 
 #+BEGIN_NOTES
 
 Why him: creator and head of Claude Code, directly shaping one of the most
 influential coding agents and Anthropic's internal agentic workflow.
 
-All excerpts: Fortune, “The head of Claude Code hasn't written a line of code by
-hand in 8 months,” 11 June 2026.
+Independent quote source: Nick Lichtenberg, Fortune, 11 June 2026. All three
+lines are printed as direct Cherny quotations from a Fortune Brainstorm Tech
+fireside chat.
 https://fortune.com/2026/06/11/anthropic-claude-boris-cherny-doesnt-write-code-by-hand-anymore/
 
-“That’s the benchmark” refers to comparing an agent outcome with the cost of an
-engineer performing the same work, not with a low-cost assistant subscription.
-Cherny describes a sequence of bottleneck migration: writing, then review, then
-maintainability and security. These are claims from a vendor leader and should
-be weighed accordingly.
+“That's the benchmark” means comparing an agent outcome with the cost of an
+engineer doing the same work, rather than with a low-cost assistant subscription.
+Cherny is a vendor leader; his scale and productivity claims warrant that caveat.
 
 #+END_NOTES
 
-* 10. Birgitta Böckeler
+* 4. Birgitta Böckeler
 
-#+REVEAL_HTML: <div style="font-size: 0.76em;">
+#+REVEAL_HTML: <div style="font-size: 0.72em;">
 
 #+BEGIN_QUOTE
-“Harness engineering is an active and developing concept.”
+“Risk is always probability plus impact plus detectability.”
 
-“Sensors are vital for delivering software safely and sustainably.”
+“Every time something goes wrong, they try to improve the harness first.”
 
 “There’s still a lot of benefit for the graphical projection.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
 
-*Signal:* Give agents deterministic feedback; keep their work observable to humans.
+*Signal:* Calibrate autonomy, improve feedback, keep agent work observable.
 
 #+BEGIN_NOTES
 
@@ -423,23 +179,17 @@ Why her: Thoughtworks Distinguished Engineer focused full-time on AI-first
 software delivery; a leading practitioner connecting agent autonomy with
 architecture, delivery, feedback, and risk.
 
-Sources:
-- Böckeler and Chris Ford, “Harness engineering and agent feedback,”
-  13 May 2026:
-  https://www.thoughtworks.com/en-us/insights/blog/generative-ai/harness-engineering-agent-feedback-exploring-ai-coding-sensors
-- InfoQ, “From MCP and Vibe Coding to Harness Engineering,” 8 June 2026:
-  https://www.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/
-
-Sensors are deterministic feedback such as tests, linters, static analysis,
-architecture rules, coverage, and mutation testing. The graphical-projection
-point pushes back on the claim that the terminal must be the future: visual
-interfaces still help humans debug and understand what agents are doing.
+Independent quote source: Olimpiu Pop's InfoQ interview and transcript,
+8 June 2026. All three are Böckeler's words in the independently published
+transcript. The second describes OpenAI's agent-first team; the third rejects
+the idea that terminal interfaces eliminate the value of a visual view.
+https://www.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/
 
 #+END_NOTES
 
-* 11. Geoffrey Huntley
+* 5. Geoffrey Huntley
 
-#+REVEAL_HTML: <div style="font-size: 0.76em;">
+#+REVEAL_HTML: <div style="font-size: 0.72em;">
 
 #+BEGIN_QUOTE
 “Software development is dead because anyone can be a software developer now.”
@@ -451,129 +201,110 @@ interfaces still help humans debug and understand what agents are doing.
 
 #+REVEAL_HTML: </div>
 
-*Signal:* Cheap code rewards engineering judgement and practised AI intuition.
+*Signal:* Abundant code makes systems thinking the differentiator.
 
 #+BEGIN_NOTES
 
-Why him: creator of the Ralph Wiggum Loop, the deliberately simple pattern of
-repeatedly running a coding agent against persistent state until the work
-converges. Ralph helped establish long-running agent loops as a mainstream
-software-development technique.
+Why him: creator of the Ralph Wiggum Loop, the deliberately simple technique
+of repeatedly running a coding agent against persistent state until the work
+converges.
 
-All excerpts: Geoffrey Huntley, “Hot-takes at a fireside chat during AI:Engineer
-Miami,” published 26 June 2026.
-https://ghuntley.com/miami/
-
-Huntley distinguishes abundant code production from software engineering:
-designing reliable systems, feedback, safety, and operations.
-
-Independent selection: Hendrik Krack clipped and transcribed these statements
-from Huntley's Miami talk under the headline “Software development is dead.”
-These are the lines that travelled, rather than the tidier aphorisms in
-Huntley's own written summary.
+Independent quote source: Hendrik Krack's independently posted clip and
+transcript of Huntley's AI Engineer Miami conversation, published in late June
+2026. All three displayed statements appear verbatim in the transcript.
 https://www.linkedin.com/posts/climateadvocateaienthusiast_software-development-is-dead-geoffrey-activity-7475596080911646720-5Hog
+
+Huntley distinguishes cheap code production from software engineering:
+modularity, data, authentication, security, verification, and operations.
 
 #+END_NOTES
 
-* 12. Ryan Lopopolo
+* 6. Ryan Lopopolo
 
-#+REVEAL_HTML: <div style="font-size: 0.76em;">
+#+REVEAL_HTML: <div style="font-size: 0.72em;">
 
 #+BEGIN_QUOTE
 “Code is free.”
 
-“Agents aren’t hard; the harness is hard.”
+“You can just simply say do not produce slop.”
 
 “Every time I have to type continue ... is a failure of the harness.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
 
-*Signal:* Engineer the environment so scarce human attention leaves the hot path.
+*Signal:* Engineer the environment so human attention leaves the hot path.
 
 #+BEGIN_NOTES
 
 Why him: OpenAI Member of Technical Staff who led an agent-first product team
-that shipped roughly a million lines with no manually written code. His work
-made “harness engineering” a central term for the context, constraints, tools,
-tests, and feedback that enable autonomous coding agents.
+that shipped roughly a million lines without manually written code. His work
+helped make “harness engineering” central to the agentic-development vocabulary.
 
-Original talks and interviews: Ryan Lopopolo, “Harness Engineering: How to Build
-Software When Humans Steer, Agents Execute,” published 19 June 2026.
-https://www.youtube.com/watch?v=c8bE0cj7vHY
-
-Independent selection: Marcel Schmitz quoted “Code is free”; a separate harness
-recap selected “Agents aren't hard; the harness is hard”; TalksIntel quoted the
-“type continue” test. The full third line ends: “... to provide enough context
-around what it means to continue to completion.”
-https://marcelschmitz.com/posts/the-senior-engineers-job-just-changed/
-https://wxa-blog.x6o4.com/posts/2026-05-07-169/
+Independent quote source: TalksIntel's independently authored report and quote
+selection from Lopopolo's AI Engineer Europe talk, published 19 June 2026. Its
+“Notable Quotes” section reproduces all three lines. The full third line ends:
+“... to provide enough context around what it means to continue to completion.”
 https://talksintel.ai/ai-ml/conferences/aie-eu-2026/harness-engineering-how-to-build-software-when-humans-steer/
 
 #+END_NOTES
 
-* 13. Andrej Karpathy
+* 7. Andrej Karpathy
 
-#+REVEAL_HTML: <div style="font-size: 0.76em;">
+#+REVEAL_HTML: <div style="font-size: 0.72em;">
 
 #+BEGIN_QUOTE
-“Vibe coding is about raising the floor for everyone.”
-
 “Agentic engineering is about preserving the quality bar.”
 
-“You’re still responsible for your software just as before.”
+“You’re not allowed to introduce vulnerabilities due to vibe coding.”
+
+“You are still responsible for your software just as before.”
 #+END_QUOTE
 
 #+REVEAL_HTML: </div>
 
-*Signal:* Universal creation and professional engineering are different promises.
+*Signal:* Professional engineering means speed without surrendered accountability.
 
 #+BEGIN_NOTES
 
 Why him: OpenAI founding member, former Tesla AI director, creator of influential
 neural-network teaching projects, and coiner of “vibe coding.” In May 2026 he
-joined Anthropic's pre-training organisation to form a team using Claude to
+joined Anthropic's pre-training organisation to build a team using Claude to
 accelerate pre-training research.
 
-All excerpts: Andrej Karpathy, “From Vibe Coding to Agentic Engineering,”
-Sequoia AI Ascent, published 29 April 2026.
-https://www.youtube.com/watch?v=96jN2OCOfLs
-
-Karpathy's distinction is useful: vibe coding broadens who can make software;
-agentic engineering uses agents without surrendering security, reliability,
-or professional responsibility. Capability raises the ceiling only when the
-operator preserves the quality bar.
-
-Independent selection: StationX directly quoted the quality-bar and continuing
-responsibility passage; CO/AI independently made the same contrast the centre
-of its write-up.
+Independent quote source: Nathan House, StationX, July 2026. The article
+reproduces Karpathy's extended quality-bar passage from his April 2026 Sequoia
+AI Ascent talk, including all three displayed excerpts.
 https://app.stationx.net/articles/agentic-engineering
-https://getcoai.com/video/andrej-karpathy-video-2026/
+
+The distinction is precise: vibe coding broadens who can make software;
+agentic engineering uses agents without surrendering security, reliability,
+or professional responsibility.
 
 #+END_NOTES
 
-* 39 quotes / 5 signals
+* 21 repeated quotes / 5 signals
 
 #+REVEAL_HTML: <div style="font-size: 0.76em; text-align: left;">
 
 1. *Code becomes abundant.* Intent and accepted outcomes become scarce.
 1. *The bottleneck migrates.* From writing to review, verification, and judgement.
 1. *The harness matters.* Context, tools, feedback, constraints, and loops compound capability.
-1. *Expertise amplifies.* You cannot safely delegate beyond what you can evaluate.
-1. *Responsibility remains human.* Faster generation raises the cost of weak engineering discipline.
+1. *Systems thinking differentiates.* Generating code is not engineering a system.
+1. *Responsibility remains human.* Faster generation raises the cost of weak discipline.
 
 #+REVEAL_HTML: </div>
 
 #+BEGIN_NOTES
 
-There is disagreement about magnitude and pace. Torvalds says AI does not
-change programming; Majors says code economics have turned upside down; Cherny
-says the first bottleneck has effectively disappeared. Yet the operational
-advice converges.
+The strict filter makes the convergence more credible. Torvalds is cautious;
+Majors describes an economic inversion; Cherny and Lopopolo report from teams
+pushing autonomy; Böckeler supplies a risk model; Huntley separates coding from
+engineering; Karpathy preserves the professional quality bar.
 
 Do not optimise for generated code, agent count, or token spend. Make intent
-explicit, create hard feedback, constrain the execution environment, keep the
-work observable, and measure accepted outcomes. The human role moves upward
-and outward, but it does not disappear.
+explicit, create hard feedback, constrain the execution environment, keep work
+observable, and measure accepted outcomes. The human role moves upward and
+outward, but responsibility does not disappear.
 
 #+END_NOTES
