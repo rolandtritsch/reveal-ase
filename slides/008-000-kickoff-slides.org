@@ -1,6 +1,6 @@
 #+TITLE: Kickoff
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: 04-Jun-2026
+#+DATE: 23-Jul-2026
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_VERSION: 4
@@ -44,7 +44,7 @@
 * What? How?
 
 - Cadence: Every 2 month
-- Next one in August. Scala3-Edition.
+  - Next one on Sep. 10th
 - Call-for-Sponsors (!!!)
 - Call-for-Papers/Presentations (!!!)
   - Tools, Products, Platforms, ...
@@ -66,10 +66,14 @@
 
 - 18:00 - Opening doors (Pizza & Beers) - All
 - 18:30 - Kickoff - Roland
-- 18:45 - The Augmented Software Organisation: An opinionated glympse into the future - Joe
-- 19:30 - Agent-Fleets: From Gastown to Symphony and Paperclip - Roland
+- 18:45 - The Augmented Software-Engineering Organisation: Where are we? - Philip
+- 19:30 - Governed Agentic Systems: Using Paperclip (no slides/just code) - Roland
 - 20:15 - Wrap-up - Roland
 - 20:20 - More beers, more mingling - All
+
+* Governed Agentic Systems
+
+#+REVEAL_HTML: <img src="./images/ai-systems-evolution.jpeg" width="60%"/>
 
 * Questions (so far)?
 

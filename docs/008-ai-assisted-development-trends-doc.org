@@ -1,0 +1,359 @@
+#+TITLE: From Pair Programmer to Production System
+#+SUBTITLE: The top five AI-assisted software-development trends, 14 April--14 July 2026
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+DATE: 14-Jul-2026
+#+OPTIONS: toc:2
+#+LATEX_CLASS_OPTIONS: [11pt,portrait]
+#+LATEX_HEADER: \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,portrait]{geometry}
+#+LATEX_HEADER: \usepackage{longtable}
+
+* Executive summary
+
+The important change of the last three months is not another model at the top
+of a benchmark. AI-assisted development is becoming an operating model. The
+unit of work is moving from a suggestion to a delegated outcome; the engineer
+is moving from author to supervisor; and the surrounding concerns now look
+like ordinary production engineering: orchestration, interfaces, access
+control, observability, verification, and cost.
+
+The five highest-impact trends are:
+
+1. *Supervisory engineering:* engineers spend less time producing code and more
+   time specifying, steering, verifying, and recovering agent work.
+2. *Agent fleets and control planes:* the leading tools are being redesigned
+   around multiple persistent or background agents rather than one chat.
+3. *Governed execution:* containment and blast-radius control are replacing
+   permission pop-ups and trust in prompts as the serious security model.
+4. *Outcome economics:* token consumption has become a variable cloud bill;
+   cost per verified outcome matters more than token volume or lines of code.
+5. *A portable agent stack:* open interfaces, model pickers, and bring-your-own
+   models are beginning to separate the IDE, coding agent, model, and tools.
+
+The direction is clear: software development is becoming a socio-technical
+control system in which humans set intent and constraints, agents perform more
+of the execution, and deterministic software verifies and contains the result.
+This is not autonomous software engineering. Expertise remains the strongest
+predictor of success, and the evidence for recursive self-improvement as a
+mainstream practice remains much weaker than the evidence for supervised,
+governed agent execution.
+
+* Method
+
+** Scope
+
+- Research window: 14 April through 14 July 2026, inclusive.
+- Earlier material is used only as context or a baseline.
+- Included: coding models and agents, developer tools, SDLC workflows,
+  security/governance, developer experience, and economics.
+- Excluded: general AI announcements without a direct software-development
+  consequence, rumors, benchmark-only model releases, and vendor claims with no
+  observable product or practice change.
+
+** Selection and scoring
+
+Candidates were discovered across five lanes: models, agent orchestration,
+tool/protocol changes, organization/governance, and evidence about quality,
+productivity, security, and cost. Important claims were checked against primary
+sources and, where available, independent empirical work.
+
+Each candidate was scored from 1 (weak) to 5 (strong). The weighted score is
+=2 x impact + 2 x evidence + novelty + durability=, for a maximum of 30.
+
+| Rank | Candidate                                    | Impact | Evidence | Novelty | Durability | Score |
+|------+----------------------------------------------+--------+----------+---------+------------+-------|
+|    1 | Supervisory engineering                     |      5 |        5 |       4 |          5 |    29 |
+|    2 | Agent fleets and development control planes |      5 |        4 |       5 |          5 |    28 |
+|    3 | Governed execution and containment          |      5 |        4 |       4 |          5 |    27 |
+|    4 | Outcome economics and token discipline      |      5 |        4 |       4 |          5 |    27 |
+|    5 | Portable, multi-model agent stack            |      4 |        4 |       5 |          5 |    26 |
+
+Scores are editorial judgements, not measurements. They make the ranking
+criteria explicit and prevent launch volume or social-media attention from
+deciding the list.
+
+* 1. Supervisory engineering is the new centre of the job
+
+** What changed
+
+The strongest new evidence describes a change in the work itself. A May 2026
+longitudinal study of professional engineers found that 82% reported spending
+less time writing code. It names the growing category of directing, evaluating,
+and correcting AI output *supervisory engineering*. Although 84% perceived a
+productivity improvement, the share of matched participants reporting a worse
+experience in at least one dimension rose from 14% to 27%, particularly through
+lost flow and increased cognitive load.
+
+Anthropic's June analysis of roughly 400,000 Claude Code sessions found a
+similar division of labour: people made most planning decisions, while the
+agent made most execution decisions. Domain expertise remained predictive of
+success. Intermediate-to-expert sessions achieved verified success in 28--33%
+of sessions, versus 15% for novice-rated sessions; experts were also markedly
+better at recovering when a session ran into trouble.
+
+The data comes with caveats. The longitudinal study is a preprint with a small
+matched cohort of 95. Anthropic is studying its own product and uses classifiers
+to infer expertise and success. The two studies nevertheless point in the same
+direction using different methods.
+
+** Why it matters
+
+Typing speed and prompt cleverness are not the scarce capabilities. The scarce
+capabilities are problem framing, decomposition, architecture, judgement,
+verification, and recovery. Faster output can reduce flow if one engineer must
+continually context-switch between several partially understood work streams.
+
+** Practice now
+
+Adopt an explicit *specify--delegate--verify* loop. Give every delegated task a
+goal, constraints, acceptance tests, and a definition of done. Require agents
+to return evidence--tests, checks, diffs, or reproduced behaviour--rather than
+an assertion that the task is complete. Limit concurrent work to the number of
+agent results the engineer can still understand and review deeply.
+
+** Sources
+
+- [[https://arxiv.org/abs/2605.23135][Vella and Blincoe, The Impact of AI Coding Assistants on Software Engineering]], 22 May 2026.
+- [[https://www.anthropic.com/research/claude-code-expertise][Anthropic, Agentic coding and persistent returns to expertise]], 16 June 2026.
+
+* 2. The interface is becoming an agent control plane
+
+** What changed
+
+The product frontier has shifted from chatting with one assistant to managing
+background, persistent, and parallel workers. Warp open-sourced its agentic
+development environment on 28 April and positioned Oz as orchestration for
+dozens or hundreds of cloud agents. OpenAI described the same direction as
+coordinating large numbers of persistent agents while humans define objectives
+and supervise outcomes.
+
+VS Code's May releases added a dedicated Agents window for agent-first work
+across multiple projects and remote control of longer-running sessions. This is
+more than a UI fashion: a June census across 180 million repositories found
+more than 320,000 agent-attributed commits per month by April 2026. It also
+found that deployment shape influences work shape: cloud PR agents skew toward
+features, while in-editor agents skew toward maintenance.
+
+The boldest fleet claims remain vendor-led, and commit attribution still
+undercounts unattributed use. The independent repository census supports rapid
+adoption, but not the claim that hundred-agent fleets are already normal.
+
+** Why it matters
+
+Parallel execution moves the bottleneck upstream to task design and downstream
+to integration. Without a control plane, more agents produce more collisions,
+duplicate work, review queues, and hidden failure. The useful abstraction is
+not an AI teammate; it is a small distributed system.
+
+** New tools and signals
+
+- Warp ADE and Oz: open development environment plus cloud orchestration.
+- VS Code Agents window: a first-class surface for multiple agent sessions.
+- Copilot cloud agent, Cursor background agents, and Codex: asynchronous work
+  is becoming a standard product category rather than a specialist mode.
+
+** Practice now
+
+Start with two agents on independent, testable tasks--for example, one makes a
+change and one performs an adversarial review. Give each an isolated worktree
+or sandbox, a narrow ownership boundary, and a merge gate. Measure accepted
+outcomes and rework, not the number of agents launched.
+
+** Sources
+
+- [[https://www.warp.dev/newsroom/2026/4/28/warp-open-sources-its-agentic-development-environment][Warp open-sources its Agentic Development Environment]], 28 April 2026.
+- [[https://openai.com/index/warp/][OpenAI, Warp's big bet on building open source with GPT-5.5]], 27 May 2026.
+- [[https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases/][GitHub, Copilot in Visual Studio Code May releases]], 3 June 2026.
+- [[https://arxiv.org/abs/2606.24429][Khosravani and Mockus, Detecting AI Coding Agents in Open Source]], 23 June 2026.
+
+* 3. Governance is moving from prompts to containment
+
+** What changed
+
+The enterprise question is no longer whether an agent may suggest code. Agents
+can execute commands, access networks and credentials, and act for long periods.
+GitHub added organization-level controls for selectively enabling its cloud
+agent on 15 April. Gartner's May market assessment elevated governance,
+commercial clarity, support, and regulatory needs alongside product quality.
+
+The most useful technical statement came from Anthropic in June. Permission
+prompts did not provide dependable supervision: users approved roughly 93% of
+them. Anthropic's recommendation is to cap blast radius with deterministic
+environment controls--sandboxes, VMs, filesystem boundaries, credential
+separation, and egress controls--then layer probabilistic model controls on top.
+It also documented models escaping sandboxes or finding unintended paths to a
+goal, making this concrete rather than hypothetical.
+
+This evidence is partly a report from one vendor about its own incidents. The
+recommended primitives are nevertheless conventional, independently testable
+security controls, and the GitHub/Gartner signals show governance entering
+mainstream product selection.
+
+** Why it matters
+
+More capable agents make fewer trivial mistakes but can exploit a larger blast
+radius. Human approval does not scale when prompts are frequent and work runs
+in parallel. Governance must become part of the execution architecture, not a
+policy document or a paragraph in =AGENTS.md=.
+
+** Practice now
+
+Treat every coding agent like an untrusted CI job. Use disposable environments,
+least-privilege credentials, network egress allowlists, protected branches,
+auditable tool calls, and deterministic release gates. Never expose production
+credentials merely because the agent asks before using them.
+
+** Sources
+
+- [[https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/][GitHub, Enable Copilot cloud agent via custom properties]], 15 April 2026.
+- [[https://www.gartner.com/en/newsroom/press-releases/2026-05-20-gartner-says-the-market-for-enterprise-ai-coding-agents-is-entering-a-new-phase-of-expansion-and-competitive-realignment][Gartner, Enterprise AI coding agents enter a new phase]], 20 May 2026.
+- [[https://www.anthropic.com/engineering/how-we-contain-claude][Anthropic, How we contain Claude across products]], June 2026.
+
+* 4. TokenMaxing is giving way to OutcomeMaxing
+
+** What changed
+
+Agent loops make inference a material, unpredictable operating cost. An April
+study found agentic coding tasks consumed roughly 1,000 times more tokens than
+code chat in its benchmark. Repeated runs of the same task varied by as much as
+30 times, and greater token consumption did not reliably improve accuracy.
+
+The commercial model is following the technical reality. On 1 June, GitHub
+activated usage-based billing across Copilot plans, made code review consume
+both AI credits and Actions minutes, and added user-level budgets. Cursor added
+model controls, spend management, and usage analytics in May. Products now
+expose model and reasoning choices explicitly because quality, latency, and
+cost are coupled engineering decisions.
+
+The 1,000-times figure is benchmark-specific and should not be generalized to
+every tool or task. Token counts also omit human review, retries, CI, and the
+cost of defects. That strengthens, rather than weakens, the case for measuring
+the whole outcome.
+
+** Why it matters
+
+Tokens are an activity metric. Lines of generated code are another. Neither
+says whether valuable, maintainable software shipped. Cheap models that create
+rework can cost more than expensive models that produce a verified result;
+unbounded premium-model loops can erase the value of automation.
+
+** Practice now
+
+Measure *cost per accepted outcome*: inference, agent infrastructure, CI,
+review time, rework, and escaped defects. Route routine work to cheaper models,
+escalate only when verification fails, cap retries and parallelism, cache stable
+context, and stop loops that are not increasing confidence.
+
+** Sources
+
+- [[https://arxiv.org/abs/2604.22750][How Do AI Agents Spend Your Money?]], 24 April 2026.
+- [[https://cursor.com/changelog/05-04-26][Cursor, Model controls, spend management, and usage analytics]], 4 May 2026.
+- [[https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/][GitHub, Updates to Copilot billing and plans]], 1 June 2026.
+
+* 5. The agent stack is beginning to unbundle
+
+** What changed
+
+Coding tools are separating into layers: editor/client, agent, model, context
+and tools, and execution environment. Agent Client Protocol (ACP), developed
+openly by JetBrains and Zed, standardises communication between IDEs and coding
+agents. GitHub Copilot became available in JetBrains AI Assistant through ACP
+and then as a native agent option on 30 June. JetBrains' June documentation
+also exposes an agent registry for centrally governed environments.
+
+At the same time, VS Code expanded bring-your-own-key support to air-gapped
+environments and added controls for choosing models for utility work. The new
+agent picker lets users tune model and reasoning depth for speed, quality, and
+cost. MCP remains the complementary tool/context interface; ACP addresses the
+client-to-agent boundary.
+
+ACP is young and does not yet erase differences in native integrations. Open
+protocol support can still be incomplete, and vendors retain incentives to
+make their own agent work best in their own surface. This is an emerging
+direction, not a settled standard comparable with LSP.
+
+** Why it matters
+
+If the layers remain substitutable, teams can avoid locking editor choice,
+agent behaviour, model economics, and tool access into one product decision.
+Policy can also move to stable boundaries--which agents, models, and tools are
+allowed--instead of being duplicated in each IDE.
+
+** Practice now
+
+Keep repository instructions, tests, and tool interfaces vendor-neutral. Pilot
+one ACP-capable alternative in an existing IDE and verify which capabilities
+survive the protocol boundary. Separate model evaluation from agent evaluation:
+the same model can behave very differently under different harnesses.
+
+** Sources
+
+- [[https://www.jetbrains.com/acp/][JetBrains, Agent Client Protocol]].
+- [[https://agentclientprotocol.com/updates][Agent Client Protocol updates]], 22 April 2026 onward.
+- [[https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant/][GitHub, Copilot Agent in JetBrains AI Assistant]], 30 June 2026.
+- [[https://www.jetbrains.com/help/ide-services/2026-1.html][JetBrains IDE Services 2026.1]], 25 June 2026.
+
+* What did not make the top five
+
+** Recursive self-improvement
+
+Agents that modify their own prompts, skills, or harnesses are an important
+research direction. In this period, however, the public evidence is dominated
+by demonstrations and product narratives. There is not yet comparable evidence
+of sustained production adoption, safe evaluation, or repeatable gains. Keep it
+on the watchlist; do not yet present it as a mainstream best practice.
+
+** The latest coding model
+
+Model capability continued to improve, but model leadership changes quickly
+and most coding products now expose several providers. The more durable trend
+is routing and substitutability, not a particular benchmark winner.
+
+** Vibe coding
+
+Intent-first application creation remains visible and commercially important,
+especially for prototypes and non-developers. For senior practitioners, the
+new information is the corrective: verification, expertise, containment, and
+maintainability determine whether generated software becomes a production
+asset or accelerated debt.
+
+** AI code review and security agents
+
+Review and vulnerability-finding agents are advancing, but they fit within the
+larger move from creation to verification and governed execution. Treating them
+as separate trends would double-count those shifts.
+
+* Where the industry is going: the next 6--18 months
+
+- *From seats to capacity:* teams will budget agent concurrency, model tiers,
+  and verified throughput instead of purchasing one assistant seat per person.
+- *From IDE choice to control-plane choice:* the differentiator will be how a
+  platform schedules, observes, contains, evaluates, and accounts for agents.
+- *From code review to evidence review:* small diffs, tests, traces, provenance,
+  and policy results will matter more as humans write a smaller share of code.
+- *From prompt files to executable policy:* instructions will remain useful,
+  but permissions, environments, schemas, and release gates will enforce the
+  important constraints.
+- *From model loyalty to routing:* teams will select models per task and risk
+  class. The harness, context, and verification loop will often matter more
+  than small benchmark differences.
+- *From individual productivity to organizational flow:* local speed-ups will
+  be discounted unless they improve lead time, reliability, maintainability,
+  developer experience, or customer outcomes across the whole system.
+
+The near-term winning practice is therefore neither "let the agent do
+everything" nor "use AI only as autocomplete." It is to delegate progressively
+larger outcomes inside progressively better engineered boundaries.
+
+* Compact action checklist
+
+1. Specify acceptance criteria before starting the agent.
+2. Isolate agent execution and minimise credentials and network access.
+3. Require tests, checks, or observable behaviour as completion evidence.
+4. Keep changes small enough for a human to understand.
+5. Track accepted outcomes, review time, rework, defects, and total cost.
+6. Limit concurrency to the team's verification capacity.
+7. Keep context and tool interfaces portable across models and agents.
+8. Review the operating model monthly; this market is changing faster than an
+   annual developer-tool procurement cycle.
+

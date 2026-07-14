@@ -1,6 +1,6 @@
 #+TITLE: Wrap-up
 #+SUBTITLE: Augmented Software Engineering Meetup
-#+DATE: 04-Jun-2026
+#+DATE: 23-Jul-2026
 #+AUTHOR: Roland Tritsch
 #+EMAIL: roland@tritsch.email
 #+REVEAL_VERSION: 4
@@ -12,55 +12,191 @@
 
 * What's new? What's happening?
 
-[[https://www.stateof.ai/][StateOf.Ai Edition]]
+14 Apr. -- 14 Jul. 2026: Impact + Evidence, not hype
 
-** What's new? What's happening? (1/8)
+- What materially changed?
+- What survives beyond the latest model launch?
+- What should we do differently on Monday?
 
-My take: GPT, Claude, Gemini, Grok, ..., DeepSeek, Qwen, ...
+#+BEGIN_NOTES
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-0.png" width="60%"/>
+I looked across models, tools, protocols, research, security, governance, and
+economics. The ranking weights practical impact and evidence twice. The full
+research dossier and sources are in 008-ai-assisted-development-trends-doc.pdf.
 
-** What's new? What's happening? (2/8)
+#+END_NOTES
 
-My take: MCP on the way up ... or out (agents, skills, ...)
+** 1. The Job: Supervisory Engineering
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-1.png" width="60%"/>
+*My take:* We specify and verify. Agents execute.
 
-** What's new? What's happening? (3/8)
+- 82% report less time writing code
+- Expertise still predicts successful outcomes
+- New bottleneck: attention, judgement, verification
 
-My take: Langchain remains popular, but is now one of many 
+#+BEGIN_NOTES
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-2.png" width="60%"/>
+The May longitudinal study calls the direction, evaluation, and correction of
+AI output "supervisory engineering." It also finds a productivity-experience
+paradox: perceived productivity remains high while flow and cognitive load get
+worse for more developers. Anthropic's analysis of about 400,000 Claude Code
+sessions finds humans plan and agents execute; experts recover from trouble
+better than novices.
 
-** What's new? What's happening? (4/8)
+Practice: specify goal, constraints, acceptance tests, and definition of done;
+require hard evidence such as tests or reproduced behaviour.
 
-My take: Sonnet remains popular, but is now one of many 
+Sources:
+- https://arxiv.org/abs/2605.23135 (22 May 2026)
+- https://www.anthropic.com/research/claude-code-expertise (16 Jun. 2026)
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-3.png" width="60%"/>
+#+END_NOTES
 
-** What's new? What's happening? (5/8)
+** 2. The UI: Agent Control Plane
 
-My take: Agentic-Coding is a thing (business, usage, ...)
+*My take:* One chat becomes a fleet of workers.
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-4.png" width="60%"/>
+- Background, persistent, parallel agents
+- Warp Oz, VS Code Agents, Codex, Copilot, Cursor
+- Bottleneck moves to decomposition and integration
 
-** What's new? What's happening? (6/8)
+#+BEGIN_NOTES
 
-My take: Coding, Media-Generation (Sora-Avatars), ...
+Warp open-sourced its agentic development environment and describes Oz as
+orchestration for dozens or hundreds of agents. VS Code added an Agents window
+for multi-project and longer-running sessions. An independent census across
+180 million repositories found more than 320,000 agent-attributed commits per
+month by April, while warning that attribution misses much real usage.
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-5.png" width="60%"/>
+Practice: start with two independent, testable tasks in isolated worktrees;
+measure accepted outcomes and rework, not the number of agents launched.
 
-** What's new? What's happening? (7/8)
+Sources:
+- https://www.warp.dev/newsroom/2026/4/28/warp-open-sources-its-agentic-development-environment
+- https://openai.com/index/warp/
+- https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases/
+- https://arxiv.org/abs/2606.24429
 
-My take: Claude-Code, Cursor, VSC/GHCP, ..., Windsurf, ...
+#+END_NOTES
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-6.png" width="60%"/>
+** 3. The Platform: Governed Execution
 
-** What's new? What's happening? (8/8)
+*My take:* Treat the agent like untrusted CI.
 
-My take: 5 will become true. Which 5?
+- Permission prompts do not scale (93% approved)
+- Cap blast radius: sandbox, credentials, egress
+- Deterministic boundaries > probabilistic promises
 
-#+REVEAL_HTML: <img src="./images/stateof-ai-7.png" width="60%"/>
+#+BEGIN_NOTES
+
+GitHub added organization-level controls for its cloud agent. Anthropic reports
+that users approve about 93% of permission prompts and recommends deterministic
+containment first: disposable environments, filesystem and credential
+boundaries, and network egress controls. Model-layer controls are defence in
+depth, not the security boundary.
+
+Practice: least privilege, disposable environments, protected branches,
+auditable tool calls, and deterministic release gates.
+
+Sources:
+- https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties/
+- https://www.anthropic.com/engineering/how-we-contain-claude
+
+#+END_NOTES
+
+** 4. The Economics: OutcomeMaxing
+
+*My take:* Tokens are the new cloud bill, not the KPI.
+
+- Same task: up to 30x token variation
+- More tokens != better result
+- Measure cost per accepted outcome
+
+#+BEGIN_NOTES
+
+An April study found agentic tasks roughly 1,000 times more token-intensive than
+code chat in its benchmark, with up to 30x run-to-run variation and no reliable
+relationship between more tokens and better accuracy. GitHub activated
+usage-based billing across Copilot plans on 1 June; Cursor added spend controls
+and analytics in May.
+
+Practice: include inference, CI, review, rework, and defects in cost per accepted
+outcome; cap retries and concurrency; route routine work to cheaper models.
+
+Sources:
+- https://arxiv.org/abs/2604.22750
+- https://cursor.com/changelog/05-04-26
+- https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/
+
+#+END_NOTES
+
+** 5. The Stack: Agents Become Portable
+
+*My take:* IDE != Agent != Model != Tools
+
+- ACP: agent <-> IDE
+- MCP: agent <-> tools/context
+- Agent/model pickers and BYOK are becoming normal
+
+#+BEGIN_NOTES
+
+JetBrains and Zed are developing Agent Client Protocol openly. Copilot is now
+available through ACP and as a native choice inside JetBrains AI Assistant.
+VS Code expanded bring-your-own-key support and model controls. This is an
+emerging direction: native integrations remain richer and ACP is not yet LSP.
+
+Practice: keep repo instructions, tests, and tools vendor-neutral; evaluate the
+agent harness separately from the underlying model.
+
+Sources:
+- https://www.jetbrains.com/acp/
+- https://agentclientprotocol.com/updates
+- https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant/
+
+#+END_NOTES
+
+** Where is it going?
+
+#+REVEAL_HTML: <div style="font-size: 0.85em;">
+
+- Suggestions -> Delegated outcomes
+- One assistant -> Governed agent capacity
+- Code review -> Evidence review
+- Prompt rules -> Executable policy
+- Model loyalty -> Routing
+- Individual speed -> Organizational flow
+
+#+REVEAL_HTML: </div>
+
+#+BEGIN_NOTES
+
+The important shift is from a clever assistant to a production system. Humans
+set intent and constraints; agents execute more of the work; deterministic
+software contains and verifies it. We will budget capacity rather than seats,
+review evidence rather than generated volume, and route work rather than stay
+loyal to one model.
+
+Recursive self-improvement did not make the top five. It remains a serious
+research direction, but the last three months provide much weaker evidence of
+repeatable production use than for supervised and governed execution.
+
+#+END_NOTES
+
+** Try this on Monday
+
+1. Write the acceptance test first
+2. Run the agent with least privilege
+3. Require evidence, not "done"
+4. Keep the diff human-sized
+5. Measure rework + total outcome cost
+
+#+BEGIN_NOTES
+
+The concise recommendation: delegate progressively larger outcomes inside
+progressively better engineered boundaries. Do not maximize tokens, agents, or
+generated code. Maximize verified, maintainable outcomes.
+
+#+END_NOTES
 
 * Thoughts/Feedback?
 
@@ -73,7 +209,7 @@ My take: 5 will become true. Which 5?
 - CFP!!!
 - Sponsors!!!
 - Co-Organizers!!!
-- Thu., Aug., 06th, 18:00!!!
+- Thu., Sep., 10th, 18:00!!!
 - Tables!!! Clean-Up!!!
 
 * Thank you!
