@@ -42,12 +42,12 @@ And then you need to start all over again.
 ** Meetup Planer
 
 - You are very well connected You are an excellent networker. You know a lot of people 
-= You will find the next venue and the next sponsor
+- You will find the next venue and the next sponsor
 - You will work with the Meetup Presenter Preparer to determine what the next meetup is all about
-= You will put together the agenda and will then send the invite for the event
-= You will then do all of the PR for the event (and make sure the sponsors are getting good milage out of the event)
-= You will work with venue to make sure the venue is ready for the event
-= On the day of the event you will work with the Meetup Executor (MC) and help to make sure that the attendees have a good experience
+- You will put together the agenda and will then send the invite for the event
+- You will then do all of the PR for the event (and make sure the sponsors are getting good milage out of the event)
+- You will work with venue to make sure the venue is ready for the event
+- On the day of the event you will work with the Meetup Executor (MC) and help to make sure that the attendees have a good experience
 - After the event you will work with the Meetup Presenter Preparer and the Meetup Videographer and send a/the wrap-up communication (with the presentations and the videos) to the attendees and the sponsors
 
 ** Meetup Presenter Preparer
@@ -55,10 +55,10 @@ And then you need to start all over again.
 - You are very well connected You are an excellent networker. You know a lot of people 
 - You are a very good presenter. And you understand what needs to be talked about and how we need to talk about it
 - You recognize a good speaker/presentation when you see one
-= You will find the next speaker(s). You will build and maintain a backlog of speakers
+- You will find the next speaker(s). You will build and maintain a backlog of speakers
 - You will work with the Meetup Planer to determine what the next meetup is all about
 - You will make sure the speakers are ready on the day of the meetup. You make sure the presentations are of good quality
-= On the day of the event you will work with the Meetup Executor (MC) and help to make sure that the speakers have a good experience
+- On the day of the event you will work with the Meetup Executor (MC) and help to make sure that the speakers have a good experience
 - You will collect the presentations from the speakers after the event
 
 ** Meetup Executor (MC)
