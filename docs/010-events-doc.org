@@ -163,3 +163,21 @@ Venue: UCD, Dublin
 | Kickoff                                 | Roland    | [[https://tedn.life/reveal-ase-meetup/007-000-kickoff-slides.html][Slides]] | [[https://youtu.be/tSSpwTF_qGQ][Video]] |                 |
 | Making Agents work for you              | Brian     | [[https://tedn.life/reveal-ase-meetup/007-010-agents-at-work.pdf][Slides]] | [[https://youtu.be/dfpOJWPFeCc][Video]] |                 |
 | No slides. Only code - SDD with SpecKit | Roland    | [[https://tedn.life/reveal-ase-meetup/007-020-noslides-slides.html][Slides]] | [[https://youtu.be/OYCDV1IH-W4][Video]] | [[https://youtu.be/ZSGLxozN5wE][Screencast]] [[https://github.com/rolandtritsch/scala3-sorting-algo-visualizer-speckit][Repo]] |
+
+#+LATEX: \newpage
+* 23-Jul-2026
+
+** Mid-Year Checkpoint - Review the Predictions
+
+Venue: Baseline, Dublin
+
+** Presentations
+
+#+ATTR_LATEX: :align p{10cm}lll
+| Title                                  | Presenter | Slides | Video |
+|----------------------------------------+-----------+--------+-------|
+| <60>                                   | <15>      | <10>   | <10>  |
+|----------------------------------------+-----------+--------+-------|
+| Kickoff                                | Roland    | [[https://tedn.life/reveal-ase-meetup/008-000-kickoff-slides.html][Slides]] | [[https://youtu.be/s6sxDQXRKRU][Video]] |
+| The Augmented Software Engineering Org | Philip    | [[https://tedn.life/reveal-ase-meetup/008-010-philip.pdf][Slides]] | [[https://youtu.be/XaoeYWPwQQw][Video]] |
+| No slides. Only code - Paperclip       | Roland    | [[https://tedn.life/reveal-ase-meetup/008-020-noslides-slides.html][Slides]] | [[https://youtu.be/Gyah5FjZRao][Video]] |

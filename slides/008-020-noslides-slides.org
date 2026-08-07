@@ -1,4 +1,4 @@
-#+TITLE: No Slides/Just Code
+#+TITLE: Governed Agentic Systems - Paperclip
 #+SUBTITLE: Augmented Software Engineering Meetup
 #+DATE: 23-Jul-2026
 #+AUTHOR: Roland Tritsch
@@ -7,47 +7,19 @@
 #+REVEAL_THEME: beige
 #+REVEAL_INIT_OPTIONS: width:"80%", slideNumber: "c/t"
 #+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4><p class=date style="font-size: 0.5em">Version - {{{time(%Y-%m-%d_%H:%M:%S)}}}</p>
+#+REVEAL_HEAD_PREAMBLE: <style>.no-title h2 { display: none; }</style>
 #+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
 #+OPTIONS: toc:nil num:nil 
 
-* Demo: Gastown
+* Governed Agentic Systems
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: class="no-title"
+:END:
 
-- ???
-- ???
-- ???
+#+REVEAL_HTML: <img src="./images/ai-systems-evolution.jpeg" width="50%"/>
 
-#+BEGIN_NOTES
-
-- ???
-- ???
-- ???
-
-#+END_NOTES
- 
-* Demo: Symphony
-
-- ???
-- ???
-- ???
-
-#+BEGIN_NOTES
-
-- ???
-- ???
-- ???
-
-#+END_NOTES
- 
 * Demo: Paperclip
 
-- ???
-- ???
-- ???
-
-#+BEGIN_NOTES
-
-- ???
-- ???
-- ???
-
-#+END_NOTES
+- Based on a review that I/we did at Ailtir
+- Platform to build and run a Dark Factory
+- Building =Ailtir Software Development Ltd.=, which will then build =Ailtir Bid Services Ltd.=
